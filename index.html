@@ -5,18 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="google" content="notranslate" />
   <meta http-equiv="Content-Language" content="en_US" />
-
+  
   <title>Home</title>
+
   <link href="assets/mobile.css" media="all" rel="stylesheet" type="text/css" />
   <script src="assets/mobile.js" type="text/javascript"></script>
   <meta content="authenticity_token" name="csrf-param" />
 </head>
 <script>
+ $.support.cors = true;
   window.onload = function(){
     window.R = system_romeo();
     window.ro = R;
     window.Q = ro.new_ajax_queue();
-    // ro.window_onload();
+    ro.window_onload();
     ro.current_tenant_id = 2;
     ro.design_mode = 0;
     ro.session = {person_id:6};
@@ -54,46 +56,17 @@
           <div class="base2" data-active_record="pages_" id="base2_2876">
             <div class="heading1">
               <div class="div_close"></div>
-              <span class="title" onclick="ro.click_heading(this,false,2876)">Home 0.02</span>
+              <span class="title" onclick="ro.click_heading(this,false,2876)">Mobile Home Page</span>
             </div>
             <div class="container">
-              <div class="stlist">
-                <div class="buttonbar">
-                  <div class="right">
-                    <div class="barmenu_link" onclick="ro.show_barmenu(this);">
-                      <ul class="barmenu" data-part_id="part-67858-10001393">
-                        <li onclick="ro.set_iview_mode(this,'show')"><span>Show</span></li>
-                        <li onclick="ro.set_iview_mode(this,'edit')"><span>Edit</span></li>
-                        <li onclick="ro.set_iview_mode(this,'delete')"><span>Delete</span></li>
-                        <li onclick="ro.popupsClose();"><a href="/t2/tickets?search_string=download&amp;ps=6573">Download</a></li>
-                      </ul>
-                    </div>
-                    <div class="button" onclick="ro.ajaxBegin();window.current_list_id='list-67858-10001393';$.getScript('/t2/tickets/new?index_part_id=10001393&amp;pcid=67858');" title="New">
-                      <div class="icon new"></div>
-                    </div>
-                  </div>
-                  <div class="left">
-                    <div class="search_icon" onclick="ro.show_search_form(this)" style="display: none;"></div>
-                    <form accept-charset="UTF-8" action="/t2/tickets?cid=67858&amp;prt=10001393&amp;search_flag=true" class="search_form" data-remote="true" method="get" onsubmit="ro.ajaxBegin()" style="display: block;">
-                      <div style="margin:0;padding:0;display:inline">
-                        <input name="utf8" type="hidden" value="✓">
-                      </div>
-                      <input class="index_search_box" id="search_string" name="search_string" type="text" value="all">
-                      <input class="index_search_button" name="commit" type="submit" value="search">
-                    </form>
-                  </div>
+              <div class=buttons>
+                <div class=save_button onclick="ro.getScript('http://localhost:3000?ajax=true&phonegap_logon=true');"> Login to Localhost 
                 </div>
-                <ul class="list css_capsule" id="list-67858-10001393">
-                  <li class="item" data-active_record="t2/tickets_2" data-id="2" data-url_destroy="/t2/tickets/destroy/2?stay_on_current_page=true" data-url_edit="/t2/tickets/edit/2?hide%5Bticket_ticket_id%5D=true" data-url_show="/t2/tickets/show/2?hide%5Bticket_ticket_id%5D=true" onclick="alert('hello')">
-                    <div class="content"><span class="content_text">
-                      <strong data-id="value_ticket_2_name">Test Close</strong></span><span class="content_text"><span class="inline_label">&nbsp; Ticket Status: </span><span data-id="value_ticket_2_ticket_status">Open</span></span>
-                    </div>
-                  </li>
-                  <li class="item" data-active_record="t2/tickets_1" data-id="1" data-url_destroy="/t2/tickets/destroy/1?stay_on_current_page=true" data-url_edit="/t2/tickets/edit/1?hide%5Bticket_ticket_id%5D=true" data-url_show="/t2/tickets/show/1?hide%5Bticket_ticket_id%5D=true" onclick="alert('hello')">
-                    <div class="content"><span class="content_text"><strong data-id="value_ticket_1_name">abc def ghi word1 word2 word3 word4 word5 word6 word7 word8</strong></span><span class="content_text"><span class="inline_label">&nbsp; Ticket Status: </span><span data-id="value_ticket_1_ticket_status">Open</span></span></div>
-                  </li>
-                </ul>
               </div>
+              <div class=buttons>
+                <div class=save_button onclick="ro.getScript('http://systemromeo.com?ajax=true&phonegap_logon=true');"> Login to System Romeo 
+                </div>
+              </div>              
             </div>
           </div>
         </div>

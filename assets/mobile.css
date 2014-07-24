@@ -1436,8 +1436,8 @@ ul.barmenu {
 
 /* line 1319, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_new, .menu_red, .menu_blue, .menu_green, .menu_orange, .menu_black, .menu_gray, .menu_back {
-  width: 76px;
-  height: 96px;
+  width: 78px;
+  height: 98px;
   float: left;
   cursor: pointer;
 }
@@ -1449,16 +1449,16 @@ ul.barmenu {
   float: left;
   background-color: #ddd;
   border-radius: 10px;
-  border: 1px solid #cccccc;
+  border: 2px solid white;
   text-align: center;
 }
 /* line 1333, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_new .menu_item_icon:hover, .menu_red .menu_item_icon:hover, .menu_blue .menu_item_icon:hover, .menu_green .menu_item_icon:hover, .menu_orange .menu_item_icon:hover, .menu_black .menu_item_icon:hover, .menu_gray .menu_item_icon:hover, .menu_back .menu_item_icon:hover {
-  border-color:red;
+   border-color:red;
 }
 /* line 1339, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_new .menu_item_icon:active, .menu_red .menu_item_icon:active, .menu_blue .menu_item_icon:active, .menu_green .menu_item_icon:active, .menu_orange .menu_item_icon:active, .menu_black .menu_item_icon:active, .menu_gray .menu_item_icon:active, .menu_back .menu_item_icon:active {
-  border-color:red;
+   border-color:red;
 }
 /* line 1345, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_new .menu_item_icon .img, .menu_red .menu_item_icon .img, .menu_blue .menu_item_icon .img, .menu_green .menu_item_icon .img, .menu_orange .menu_item_icon .img, .menu_black .menu_item_icon .img, .menu_gray .menu_item_icon .img, .menu_back .menu_item_icon .img {

@@ -1428,9 +1428,7 @@ ul.barmenu {
 /* line 1343, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:active {
   transform: scale(1.1);
-  transition: 0.2s;
   -webkit-transform: scale(1.1);
-  -webkit-transition: 0.2s;
 }
 /* line 1346, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img {

@@ -1427,7 +1427,10 @@ ul.barmenu {
 }
 /* line 1343, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:active {
-  border-color: red;
+  transform: scale(1.1);
+  transition: 0.2s;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: 0.2s;
 }
 /* line 1346, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img {
@@ -1472,25 +1475,21 @@ ul.barmenu {
 /* line 1387, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_green {
   background-color: #03eba6;
-  border: 2px solid gray;
 }
 
 /* line 1392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_orange {
   background-color: #ffc367;
-  border: 2px solid gray;
 }
 
 /* line 1397, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_black {
   background-color: #666666;
-  border: 2px solid gray;
 }
 
 /* line 1403, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_gray {
   background-color: #cccccc;
-  border: 2px solid gray;
 }
 
 /* line 1410, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */

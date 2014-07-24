@@ -31794,7 +31794,7 @@ function system_romeo(){
     var active_tab = tabset.find("div.tab.tab_active");
     active_tab.show();
     var base1_width = $("#base1").width();
-    if(base1_width<400){active_tab.css({width:200})}else{active_tab.css({width:""})};  
+    if(base1_width<400){active_tab.css({width:212})}else{active_tab.css({width:""})};  
 
     var available_width = base1_width - active_tab.outerWidth() - 100;      
     var inactive_tabs = tabset.children("div.tab.tab_inactive");

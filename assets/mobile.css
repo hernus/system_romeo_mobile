@@ -1,9 +1,2278 @@
-body{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;background-color:#eee;font-family:arial;font-size:14pt;padding:0;margin:0}#body_inner{padding-left:5px;padding-right:5px}a{color:black;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent; }.login_background{padding:0;margin:0;background-color:#eee;background-repeat:repeat-x;background-image:url("background.jpg");background-position:0px -35px;overflow:hidden}.loginpage_banner{height:37px;padding:5px 12px}.loginpage_banner .loginpage_logo{float:left;min-width:120px}.loginpage_banner .loginpage_logo img{border:0}.loginpage_banner .loginpage_tagline{margin-top:16px;margin-left:20px;float:right;color:#bbb;font-size:14pt}.loginform{background-color:white;border-radius:6px;margin-left:auto;margin-right:auto;margin-top:65px;width:400px}.loginform .label{margin:0 20px;font-weight:bold;width:360px;font-size:14pt;color:gray}.loginform input{outline:none;-webkit-appearance:none;padding:8px;box-sizing:border-box;-moz-box-sizing:border-box;margin:0 20px;border:2px solid #ddd;border-radius:3px;width:360px;font-size:14pt;height:42px}.loginform .buttons .login_button{width:360px}.loginform input:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px #fff inset}.loginform .login_message{background-color:red;color:white;border-radius:5px;padding:5px 20px;margin:10px 20px 0 20px}.loginfooter{position:relative;height:400px;padding-top:10px;background-color:gray;text-align:center;font-size:12pt;color:#ddd}.loginfooter span{cursor:pointer}.loginfooter span:hover{color:#eee}.base{padding:0 5px;margin:0;background-color:#eee;background-repeat:repeat-x;background-image:url("background.jpg")}.banner{text-align:center;height:20px;color:#ddd;padding:8px;font-size:12pt}.banner a{color:#ddd;text-decoration:none}.banner a:hover{color:#fff}.banner .session_info{float:right;min-width:120px}.banner .mini_logo{float:left;min-width:120px;text-align:left}.banner .mini_logo img{border:0}.footmenu{text-align:center;height:20px;color:#ddd;padding:20px;font-size:12pt}.footmenu a{color:#ddd;text-decoration:none}.footmenu a:hover{color:#fff}.buttonbar,.heading_buttons{height:40px;color:gray;padding-left:0px}.buttonbar .right,.heading_buttons .right{float:right}.buttonbar .right .button,.heading_buttons .right .button{color:gray;float:right;display:block;font-weight:bold;padding:5px;margin:0;height:30px;line-height:30px;cursor:pointer}.buttonbar .right .button:hover,.heading_buttons .right .button:hover{color:#666}.buttonbar .right .sort_button,.heading_buttons .right .sort_button{font-size:17px;line-height:17px;margin-top:5px;color:white;background-color:#999;float:right;display:block;padding-top:5px;padding-bottom:5px;cursor:pointer}.buttonbar .right .sort_button.save,.heading_buttons .right .sort_button.save{padding-left:15px;padding-right:10px;border-top-left-radius:14px;border-bottom-left-radius:14px}.buttonbar .right .sort_button.exit,.heading_buttons .right .sort_button.exit{margin-left:2px;padding-left:6px;padding-right:10px;margin-right:10px;border-top-right-radius:14px;border-bottom-right-radius:14px}.buttonbar .right .sort_button:hover,.heading_buttons .right .sort_button:hover{background-color:#777}.buttonbar .left .search_form,.heading_buttons .left .search_form{margin-left:6px;display:none;float:left}.buttonbar .left .search_form input.index_search_box,.heading_buttons .left .search_form input.index_search_box{outline:none;-webkit-appearance:none;display:block;float:left;width:100px;padding:0 10px;font-size:12pt;margin-top:6px;height:24px;border-color:#999;border-style:solid;border-width:2px 0 2px 2px;border-radius:15px 0 0 15px}.buttonbar .left .search_form .index_search_button,.heading_buttons .left .search_form .index_search_button{outline:none;-webkit-appearance:none;height:28px;color:white;background-color:#999;display:block;float:left;cursor:pointer;font-size:12px;line-height:28px;margin:6px 2px 5px 0;padding:0 12px 0 5px;border-radius:0 14px 14px 0;-webkit-border-radius:0 14px 14px 0;border:0}.buttonbar .left .search_form .index_search_button:hover,.heading_buttons .left .search_form .index_search_button:hover{background-color:#777}.buttonbar .barmenu_link,.heading_buttons .barmenu_link{margin-top:5px;margin-right:3px;position:relative;float:right;cursor:pointer;background:url(icons.jpg) 0 0;background-size:400px 60px;height:30px;width:40px}.buttonbar .barmenu_link:hover,.heading_buttons .barmenu_link:hover{background:url(icons.jpg) 0 -30px;background-size:400px 60px}.buttonbar{border-bottom:1px dotted #ddd}ul.barmenu{display:none}.search_icon,.new,.icon_edit,.icon_delete,.icon_gear{float:left;width:40px;height:30px}.search_icon{margin-top:5px;cursor:pointer;background:url(icons.jpg) -40px 0;background-size:400px 60px}.search_icon:hover{background:url(icons.jpg) -40px -30px;background-size:400px 60px}.new{background:url(icons.jpg) -120px 0;background-size:400px 60px}.new:hover{background:url(icons.jpg) -120px -30px;background-size:400px 60px}.icon_edit{background:url(icons.jpg) -160px 0;background-size:400px 60px}.icon_edit:hover{background:url(icons.jpg) -160px -30px;background-size:400px 60px}.icon_gear{background:url(icons.jpg) -240px 0;background-size:400px 60px}.icon_gear:hover{background:url(icons.jpg) -240px -30px;background-size:400px 60px}.icon_delete{background:url(icons.jpg) -200px 0;background-size:400px 60px}.icon_delete:hover{background:url(icons.jpg) -200px -30px;background-size:400px 60px}.heading1{height:36px;border-radius:3px 3px 0 0;padding:0;margin:0;border-bottom:1px dotted #ddd;text-align:center;color:gray;font-size:12pt;font-weight:bold;overflow:hidden;position:relative}.heading1 span.title{display:block;margin:0 50px;line-height:36px;height:36px;overflow:hidden;cursor:pointer;position:relative;top:0}.heading1 a{color:gray;text-decoration:none;font-weight:bold}.heading1 .div_close{margin:0;padding:0;height:30px;width:40px;display:block;position:absolute;top:0;left:0;border:0}.heading1 .div_close .link_close{cursor:pointer;diplay:block;float:left;position:relative;margin-top:3px;background:url(icons.jpg) -80px -30px;background-size:400px 60px;opacity:0.7;height:30px;width:40px}.heading1 .div_close .link_close:hover{opacity:1}.heading1 .heading_buttons{width:40px;height:40px;position:absolute;top:0;right:0}.crumb{border-radius:3px 3px 0 0;padding:0px;padding-top:3px;padding-bottom:3px;font-size:9pt;text-align:center;margin-bottom:0;background-image:url(heading.jpg);color:gray;font-weight:bold;height:15px;overflow:hidden}.crumb span{cursor:pointer;color:#777;text-decoration:none;font-weight:bold}.crumb span:hover{color:#555}.menu_crumb{display:none}.page .base0{min-width:250px}.crumbs{position:relative;max-width:1200px;min-width:200px;margin-top:0;margin-bottom:0;margin-left:auto;margin-right:auto}.base1{position:relative;z-index:2;max-width:1200px;min-width:200px;margin-top:0;margin-left:auto;margin-right:auto;margin-bottom:0px;min-height:1000px}.base2{border-top-left-radius:3px;border-top-right-radius:3px;background-color:white;min-height:400px}.pagefooter{position:relative;z-index:1;height:200px;background-color:gray;padding:0;padding-top:15px}.blankline{height:1px;clear:left}.stlist{margin-top:0;margin-bottom:20px}.stlist ul{border-top:1px solid transparent;clear:left;cursor:pointer;margin:0;padding:0;width:100%}.stlist ul li.item,.stlist ul li.sort_item{z-index:99;padding-top:10px;padding-bottom:10px;padding-left:18px;padding-right:10px;position:relative;display:block;border-bottom:1px dotted #ddd;cursor:arrow;overflow:hidden}.stlist ul li.item:after,.stlist ul li.sort_item:after{border-top:4px solid transparent;border-left:8px solid #ddd;border-bottom:4px solid transparent;border-right:0;display:block;position:absolute;top:0;left:100%;margin-left:-45px;height:0;width:0;top:50%;margin-top:-4px;content:""}.stlist ul li.item .content,.stlist ul li.sort_item .content{float:left;margin:0;padding:0}.stlist ul li.item .content .content_text,.stlist ul li.sort_item .content .content_text{padding-left:3px;display:inline-block;margin:1px;width:270px}.stlist ul li.item .content .content_text .inline_label,.stlist ul li.sort_item .content .content_text .inline_label{display:inline;color:gray}.stlist ul li.item{border-bottom:1px dotted #ddd}
-.stlist ul li.item:hover{background-color:#f9f9f9} 
-.stlist ul li.item:active{background-color:yellow}   
-.stlist ul li.sort_item{background-color:#eee;border-style:solid;border-color:white;border-width:3px 6px}
-.stlist ul li.sort_item:hover{background-color:#e8e8e8}
-.stlist ul li.sort_target{position:relative;z-index:100;cursor:move;height:0px;border-top:15px solid transparent;margin-top:-15px;border-bottom:15px solid transparent;margin-bottom:-15px;margin-left:6px;margin-right:6px}
-.stlist ul li.sort_target:hover{background-image:url(hline_3px_gray.jpg);background-repeat:repeat-x;background-position:left}
-.stlist .ulhead{margin:0;padding-left:20px;padding-right:20px }
-.stlist .ulhead span{padding-left:3px;display:inline-block;margin:1px;width:190px;font-weight:bold}.stlist_old table{width:100%;border-collapse:collapse;margin-left:auto;margin-right:auto;border-bottom:1px solid #ddd}.simple_show{padding-left:0px;padding-top:0px;padding-bottom:0px;margin-top:18px;margin-bottom:18px;margin-left:0px;margin-right:0px;margin-top:0px}.show_element,.custom_element{padding:10px 20px;overflow:hidden;clear:left;border-bottom:1px solid #eee}.show_element .label,.custom_element .label{padding-top:2px;color:gray;min-height:26px;float:left}.show_element .label span,.custom_element .label span{margin:0;display:block;float:left;min-width:200px;padding:3px 9px 1px 9px;color:gray}.show_element .value,.custom_element .value{min-height:18px;padding:3px 2px 1px 2px;line-height:23px;padding-left:7px;float:left;width:200px}.show_element .free_content,.custom_element .free_content{clear:left;padding:3px 2px 1px 2px}.show_element.drillable{cursor:pointer}.show_element.drillable:hover{background-color:#f9f9f9}.elm_expandor_link{cursor:pointer}.elm_expandor_link span:hover{color:#555}.simpleform{overflow:hidden;padding-left:0px;padding-top:0px;padding-bottom:0px;margin-top:18px;margin-bottom:18px;margin-left:0px;margin-right:0px}.simpleform .input_form{overflow:hidden}.simpleform .visible_input_elements{display:block;margin:0;padding:0;overflow:hidden}.simpleform .visible_input_elements .field,.simpleform .visible_input_elements .field-hl,.simpleform .visible_input_elements .field-vl{margin-top:10px;overflow:hidden;clear:left;list-style-type:none;padding:0 0 0 20px;min-height:30px;min-width:540px}.simpleform .visible_input_elements .field .label,.simpleform .visible_input_elements .field-hl .label,.simpleform .visible_input_elements .field-vl .label{color:white;background-color:#ddd;padding-top:4px;padding-bottom:4px;float:left;border-color:#ccc;border-style:solid;width:240px;height:20px;text-align:center;cursor:default}.simpleform .visible_input_elements .field .labelleft,.simpleform .visible_input_elements .field-hl .labelleft,.simpleform .visible_input_elements .field-vl .labelleft{border-width:2px 0 2px 2px;border-radius:6px 0 0 6px}.simpleform .visible_input_elements .field .labeltop,.simpleform .visible_input_elements .field-hl .labeltop,.simpleform .visible_input_elements .field-vl .labeltop{border-width:2px 2px 0 2px;border-radius:6px 6px 0 0}.simpleform .visible_input_elements .field .display,.simpleform .visible_input_elements .field-hl .display,.simpleform .visible_input_elements .field-vl .display{float:left;margin:0;padding:0;position:relative;width:240px;overflow:hidden;border:2px solid #ccc}.simpleform .visible_input_elements .field .display .value,.simpleform .visible_input_elements .field-hl .display .value,.simpleform .visible_input_elements .field-vl .display .value{background-color:#eee;color:#888;padding:2px 2px 2px 2px;font-size:14pt;width:240px;min-height:24px;overflow:none}.simpleform .visible_input_elements .field .input,.simpleform .visible_input_elements .field .wide_input,.simpleform .visible_input_elements .field-hl .input,.simpleform .visible_input_elements .field-hl .wide_input,.simpleform .visible_input_elements .field-vl .input,.simpleform .visible_input_elements .field-vl .wide_input{float:left;margin:0;padding:0;position:relative;min-height:28px;border:2px solid #ccc;overflow:hidden}.simpleform .visible_input_elements .field .input .free_text,.simpleform .visible_input_elements .field .input .fixed_list,.simpleform .visible_input_elements .field .input .search_input_field,.simpleform .visible_input_elements .field .input .date_picker,.simpleform .visible_input_elements .field .input .field_loading,.simpleform .visible_input_elements .field .wide_input .free_text,.simpleform .visible_input_elements .field .wide_input .fixed_list,.simpleform .visible_input_elements .field .wide_input .search_input_field,.simpleform .visible_input_elements .field .wide_input .date_picker,.simpleform .visible_input_elements .field .wide_input .field_loading,.simpleform .visible_input_elements .field-hl .input .free_text,.simpleform .visible_input_elements .field-hl .input .fixed_list,.simpleform .visible_input_elements .field-hl .input .search_input_field,.simpleform .visible_input_elements .field-hl .input .date_picker,.simpleform .visible_input_elements .field-hl .input .field_loading,.simpleform .visible_input_elements .field-hl .wide_input .free_text,.simpleform .visible_input_elements .field-hl .wide_input .fixed_list,.simpleform .visible_input_elements .field-hl .wide_input .search_input_field,.simpleform .visible_input_elements .field-hl .wide_input .date_picker,.simpleform .visible_input_elements .field-hl .wide_input .field_loading,.simpleform .visible_input_elements .field-vl .input .free_text,.simpleform .visible_input_elements .field-vl .input .fixed_list,.simpleform .visible_input_elements .field-vl .input .search_input_field,.simpleform .visible_input_elements .field-vl .input .date_picker,.simpleform .visible_input_elements .field-vl .input .field_loading,.simpleform .visible_input_elements .field-vl .wide_input .free_text,.simpleform .visible_input_elements .field-vl .wide_input .fixed_list,.simpleform .visible_input_elements .field-vl .wide_input .search_input_field,.simpleform .visible_input_elements .field-vl .wide_input .date_picker,.simpleform .visible_input_elements .field-vl .wide_input .field_loading{-webkit-border-radius:0;-webkit-appearance:none;padding:0 2px 0 2px;font-size:14pt;width:236px;margin:0px;height:28px;border:0;overflow:hidden}.simpleform .visible_input_elements .field .input .free_text,.simpleform .visible_input_elements .field .wide_input .free_text,.simpleform .visible_input_elements .field-hl .input .free_text,.simpleform .visible_input_elements .field-hl .wide_input .free_text,.simpleform .visible_input_elements .field-vl .input .free_text,.simpleform .visible_input_elements .field-vl .wide_input .free_text{padding-left:3px}.simpleform .visible_input_elements .field .input .field_loading,.simpleform .visible_input_elements .field .wide_input .field_loading,.simpleform .visible_input_elements .field-hl .input .field_loading,.simpleform .visible_input_elements .field-hl .wide_input .field_loading,.simpleform .visible_input_elements .field-vl .input .field_loading,.simpleform .visible_input_elements .field-vl .wide_input .field_loading{background-color:#eee;background-image:url("preloader2.gif");background-size:80px 10px;background-repeat:no-repeat;background-position:center;line-height:28px;text-align:center;color:gray}.simpleform .visible_input_elements .field .input .checkbox,.simpleform .visible_input_elements .field .wide_input .checkbox,.simpleform .visible_input_elements .field-hl .input .checkbox,.simpleform .visible_input_elements .field-hl .wide_input .checkbox,.simpleform .visible_input_elements .field-vl .input .checkbox,.simpleform .visible_input_elements .field-vl .wide_input .checkbox{width:140px;background-color:#eee;height:28px;text-align:center;padding:0 3px}.simpleform .visible_input_elements .field .input .checkbox input,.simpleform .visible_input_elements .field .wide_input .checkbox input,.simpleform .visible_input_elements .field-hl .input .checkbox input,.simpleform .visible_input_elements .field-hl .wide_input .checkbox input,.simpleform .visible_input_elements .field-vl .input .checkbox input,.simpleform .visible_input_elements .field-vl .wide_input .checkbox input{margin:2px 0 0 0;height:24px;width:24px}.simpleform .visible_input_elements .field .input input.search_input_field,.simpleform .visible_input_elements .field .wide_input input.search_input_field,.simpleform .visible_input_elements .field-hl .input input.search_input_field,.simpleform .visible_input_elements .field-hl .wide_input input.search_input_field,.simpleform .visible_input_elements .field-vl .input input.search_input_field,.simpleform .visible_input_elements .field-vl .wide_input input.search_input_field{padding-left:3px;background:url(dropdown.png) no-repeat right #eee;background-size:12px 24px;line-height:28px;width:235px}.simpleform .visible_input_elements .field .input select,.simpleform .visible_input_elements .field .wide_input select,.simpleform .visible_input_elements .field-hl .input select,.simpleform .visible_input_elements .field-hl .wide_input select,.simpleform .visible_input_elements .field-vl .input select,.simpleform .visible_input_elements .field-vl .wide_input select{line-height:1.5;border-radius:0;-webkit-appearance:none;height:32px;overflow:hidden;background:url(dropdown.png) no-repeat right #eee;background-size:12px 24px}.simpleform .visible_input_elements .field .input textarea,.simpleform .visible_input_elements .field .wide_input textarea,.simpleform .visible_input_elements .field-hl .input textarea,.simpleform .visible_input_elements .field-hl .wide_input textarea,.simpleform .visible_input_elements .field-vl .input textarea,.simpleform .visible_input_elements .field-vl .wide_input textarea{-webkit-border-radius:0;-webkit-appearance:none;margin:0;border:0;font-size:10pt;width:236px;height:66px;resize:none;overflow:hidden}.simpleform .visible_input_elements .field .input .input_wrapper,.simpleform .visible_input_elements .field .wide_input .input_wrapper,.simpleform .visible_input_elements .field-hl .input .input_wrapper,.simpleform .visible_input_elements .field-hl .wide_input .input_wrapper,.simpleform .visible_input_elements .field-vl .input .input_wrapper,.simpleform .visible_input_elements .field-vl .wide_input .input_wrapper{-webkit-appearance:none;margin:0;font-size:14pt;width:236px;min-height:24px}.simpleform .visible_input_elements .field .input .free_text:focus,.simpleform .visible_input_elements .field .input textarea:focus,.simpleform .visible_input_elements .field .wide_input .free_text:focus,.simpleform .visible_input_elements .field .wide_input textarea:focus,.simpleform .visible_input_elements .field-hl .input .free_text:focus,.simpleform .visible_input_elements .field-hl .input textarea:focus,.simpleform .visible_input_elements .field-hl .wide_input .free_text:focus,.simpleform .visible_input_elements .field-hl .wide_input textarea:focus,.simpleform .visible_input_elements .field-vl .input .free_text:focus,.simpleform .visible_input_elements .field-vl .input textarea:focus,.simpleform .visible_input_elements .field-vl .wide_input .free_text:focus,.simpleform .visible_input_elements .field-vl .wide_input textarea:focus{outline-style:none;outline:none}.simpleform .visible_input_elements .field .inputright,.simpleform .visible_input_elements .field-hl .inputright,.simpleform .visible_input_elements .field-vl .inputright{border-radius:0 6px 6px 0}.simpleform .visible_input_elements .field .inputbottom,.simpleform .visible_input_elements .field-hl .inputbottom,.simpleform .visible_input_elements .field-vl .inputbottom{clear:left;border-radius:0 0 6px 6px}.simpleform .visible_input_elements .field .error,.simpleform .visible_input_elements .field-hl .error,.simpleform .visible_input_elements .field-vl .error{display:none;position:relative;float:left;margin:0;font-style:bold;height:20px;border:2px solid red;text-align:center;background-color:#f55}.simpleform .visible_input_elements .field .error span,.simpleform .visible_input_elements .field-hl .error span,.simpleform .visible_input_elements .field-vl .error span{padding-left:10px;padding-right:10px;color:white;font-weight:bold;font-size:10pt;display:block;line-height:20px}.simpleform .visible_input_elements .field .errorright,.simpleform .visible_input_elements .field-hl .errorright,.simpleform .visible_input_elements .field-vl .errorright{border-radius:0 6px 6px 0;margin-top:4px;border-left:0;margin-left:1px}.simpleform .visible_input_elements .field .errorbottom,.simpleform .visible_input_elements .field-hl .errorbottom,.simpleform .visible_input_elements .field-vl .errorbottom{margin-left:10px;margin-right:10px;clear:left;border-top:1px solid #955;border-radius:0 0 6px 6px}.simpleform .visible_input_elements .field-vl .label{border-width:2px 2px 0 2px;width:479px;border-radius:8px 8px 0 0}.simpleform .visible_input_elements .field-vl .input{clear:left}.simpleform .visible_input_elements .field-vl .input textarea{width:475px}.simpleform .date{position:relative;float:left;height:32px;width:240px}.simpleform .date select{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0;display:block;float:left;border-style:solid;border-color:#ccc;border-width:2px 2px 2px 0;padding:2px;font-size:14px;line-height:1.5;border-radius:0;height:32px;overflow:hidden;background:url(dropdown.png) no-repeat right #eee;background-size:12px 24px}.simpleform .date .day{width:60px}.simpleform .date .month{width:90px}.simpleform .date .year{width:90px;border-width:2px}.simpleform .new_field{box-sizing:border-box;-moz-box-sizing:border-box;border:2px dotted #ddd;padding:0 2px;width:480px;clear:left;margin-top:10px;margin-left:20px;height:32px;color:#ddd;cursor:pointer;text-align:center;line-height:30px}.simpleform .new_field:hover{color:#aaa;border-color:#aaa}.buttons{margin-top:0;clear:left;margin-left:20px;height:30px;padding-top:2px}.buttons .save_button,.buttons .wide_button,.buttons .login_button,.buttons .upload_button,.buttons .close_button{text-align:center;box-sizing:border-box;-moz-box-sizing:border-box;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));background:-moz-linear-gradient(center top, #c123de 5%, #a20dbd 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#c123de;font-weight:bold;border-radius:6px;display:block;float:left;color:#eee;font-family:arial;font-size:12pt;text-decoration:none;margin:0;margin-top:11px;cursor:pointer;border:0px solid #a511c0;padding:0}.buttons .save_button:hover,.buttons .wide_button:hover,.buttons .login_button:hover,.buttons .upload_button:hover,.buttons .close_button:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));background:-moz-linear-gradient(center top, #a20dbd 5%, #c123de 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#a20dbd}.buttons .upload_button{width:480px;height:40px;line-height:40px;float:none;margin-left:auto;margin-right:auto}.buttons .save_button,.buttons .close_button{width:480px;height:32px;line-height:32px}.buttons .close_button{margin-left:3px;width:80px;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc), color-stop(1, #aaa));background:-moz-linear-gradient(center top, #ccc 5%, #aaa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#ccc}.buttons .close_button:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #aaa), color-stop(1, #ccc));background:-moz-linear-gradient(center top, #aaa 5%, #ccc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#aaa}.buttons .wide_button{width:480px;height:32px;line-height:32px}.buttons .login_button{width:360px;height:42px;line-height:42px}.buttons .button{-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;box-shadow:inset 0px 1px 0px 0px #e184f3;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));background:-moz-linear-gradient(center top, #c123de 5%, #a20dbd 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#c123de;font-weight:bold;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:0px solid #a511c0;display:block;float:left;color:#eee;font-family:arial;font-size:12pt;padding:6px 12px;text-decoration:none;text-shadow:1px 1px 0px #9b14b3;margin:0;cursor:pointer}.buttons .button:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));background:-moz-linear-gradient(center top, #a20dbd 5%, #c123de 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#a20dbd}.buttons .button-arrow-down{margin:5px 0 0 3px;float:left;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:10px solid #eee}.design-button{font-size:0;margin-left:5px;border-top:9px solid #aaa;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:0;cursor:pointer}.design-button:hover{border-top-color:gray}.button_to{display:inline-block}.button:active{position:relative;top:1px}.smallbutton{-moz-box-shadow:inset 0px 1px 0px 0px #fff;-webkit-box-shadow:inset 0px 1px 0px 0px #fff;box-shadow:inset 0px 1px 0px 0px #fff;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));background:-moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#ededed;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;border:1px solid #dcdcdc;display:inline-block;color:#777777;font-family:arial;font-size:10pt;line-height:16px;font-weight:bold;padding:1px 5px;text-decoration:none;text-shadow:1px 1px 0px #fff}.smallbutton:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));background:-moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');background-color:#dfdfdf}.smallbutton:active{position:relative;top:1px}.foot{clear:left;height:20px}.offwhite_background_header{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fff), color-stop(1, #eee));background:-moz-linear-gradient(center top, #fff 5%, #eee 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#fff;height:30px}.offwhite_background{background-color:#eee;overflow:hidden}.offwhite_background_footer{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eee), color-stop(1, #fff));background:-moz-linear-gradient(center top, #eee 5%, #fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#eee;height:30px}.tabs{display:none}.tabset{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fff), color-stop(1, #f9f9f9));background:-moz-linear-gradient(center top, #fff 5%, #f9f9f9 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#fff;overflow:visible;padding-left:20px;margin:10px 0 0 0;height:32px;border-bottom:1px solid #eee}.tabset .tab_active{height:22px;border-width:1px 1px 0 1px;border-style:solid;border-color:#eee;border-bottom:0;background-color:white;min-width:50px;padding:5px 15px;text-align:center;border-radius:5px 5px 0 0;float:left;margin-right:5px;margin-bottom:-1px;color:gray;font-weight:bold;cursor:pointer}.tabset .tab_inactive,.tabset .tab_vlist{background-color:#eee;height:22px;overflow:hidden;text-align:center;border-radius:5px 5px 0 0;margin-right:5px;float:left;color:#999;cursor:pointer;font-weight:bold}.tabset .tab_inactive:hover,.tabset .tab_vlist:hover{background-color:#ddd;color:#bbb}.tabset .tab_inactive{min-width:50px;padding:5px 15px}.tabset .tab_vlist{padding:5px 12px}.tabset .tabs_vlist_link{float:left;width:0;height:0;margin-top:7px;border-top:10px solid #999;border-left:4px solid transparent;border-right:4px solid transparent;line-height:0;font-size:0}.hidden_tabset{display:none}.tab_body{clear:left;overflow:hidden;background-color:white;border-radius:0 10px 10px 10px}.container,.container_show,container_list{margin-top:0;clear:left;overflow:hidden;background-color:white;min-height:100px;border-radius:0 0 3px 3px}.container_input{margin-top:0px;margin-left:0;margin-right:0;clear:left;overflow:hidden;background-color:white}.container_input span.text{padding-left:20px}.menu_container .menu_background{border-radius:3px;background-color:white;margin:0;clear:left;overflow:hidden;min-height:1000px}.menu_container .menu_background .menu_heading{background-color:rgba(255,255,255,0.2);padding:5px;font-size:12pt;color:#555;text-align:center;border-bottom:1px dotted #aaa}.menu_container .menu_background .menu_item,.menu_container .menu_background .menu_item_design{cursor:pointer;width:80px;height:100px;margin:15px 0 0 15px;float:left;display:none}.menu_new,.menu_red,.menu_blue,.menu_green,.menu_orange,.menu_black,.menu_gray,.menu_back{width:76px;height:96px;float:left;cursor:pointer}.menu_new .menu_item_icon,.menu_red .menu_item_icon,.menu_blue .menu_item_icon,.menu_green .menu_item_icon,.menu_orange .menu_item_icon,.menu_black .menu_item_icon,.menu_gray .menu_item_icon,.menu_back .menu_item_icon{position:relative;overflow:hidden;width:74px;height:74px;float:left;background-color:#ddd;border-radius:10px;border:1px solid #ccc}.menu_new .menu_item_icon:hover,.menu_red .menu_item_icon:hover,.menu_blue .menu_item_icon:hover,.menu_green .menu_item_icon:hover,.menu_orange .menu_item_icon:hover,.menu_black .menu_item_icon:hover,.menu_gray .menu_item_icon:hover,.menu_back .menu_item_icon:hover{border-color:#bbb}.menu_new .menu_item_icon img,.menu_red .menu_item_icon img,.menu_blue .menu_item_icon img,.menu_green .menu_item_icon img,.menu_orange .menu_item_icon img,.menu_black .menu_item_icon img,.menu_gray .menu_item_icon img,.menu_back .menu_item_icon img{margin:2px;position:absolute}.menu_new .menu_title,.menu_red .menu_title,.menu_blue .menu_title,.menu_green .menu_title,.menu_orange .menu_title,.menu_black .menu_title,.menu_gray .menu_title,.menu_back .menu_title{padding-top:2px;width:76px;height:18px;float:left;clear:left;font-family:arial;font-size:13px;font-weight:bold;text-align:center;color:#777;text-decoration:none}.menu_new .menu_title:hover,.menu_red .menu_title:hover,.menu_blue .menu_title:hover,.menu_green .menu_title:hover,.menu_orange .menu_title:hover,.menu_black .menu_title:hover,.menu_gray .menu_title:hover,.menu_back .menu_title:hover{color:#555}.menu_red .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fcc), color-stop(1, #e88));background:-moz-linear-gradient(center top, #fcc 5%, #e88 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#fcc}.menu_red .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fcc), color-stop(1, #d66));background:-moz-linear-gradient(center top, #fcc 5%, #d66 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#fcc}.menu_blue .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eef), color-stop(1, #cce));background:-moz-linear-gradient(center top, #eef 5%, #cce 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#eef}.menu_blue .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eef), color-stop(1, #aad));background:-moz-linear-gradient(center top, #eef 5%, #aad 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#eef}.menu_green .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33fdc0), color-stop(1, #03eba6));background:-moz-linear-gradient(center top, #33fdc0 5%, #03eba6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#33fdc0}.menu_green .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33fdc0), color-stop(1, #00cb86));background:-moz-linear-gradient(center top, #33fdc0 5%, #00cb86 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#33fdc0}.menu_orange .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffe377), color-stop(1, #ffc367));background:-moz-linear-gradient(center top, #ffe377 5%, #ffc367 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#ffe377}.menu_orange .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffe377), color-stop(1, #ffb347));background:-moz-linear-gradient(center top, #ffe377 5%, #ffb347 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#ffe377}.menu_black .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #999), color-stop(1, #666));background:-moz-linear-gradient(center top, #999 5%, #666 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#999;border-color:gray}.menu_black .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #999), color-stop(1, #444));background:-moz-linear-gradient(center top, #999 5%, #444 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#999}.menu_gray .menu_item_icon{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eee), color-stop(1, #ccc));background:-moz-linear-gradient(center top, #eee 5%, #ccc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#eee}.menu_gray .menu_item_icon:hover{background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eee), color-stop(1, #aaa));background:-moz-linear-gradient(center top, #eee 5%, #aaa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#eee}#barmenu{position:absolute;width:250px;color:white;display:none;z-index:101;border-radius:5px}#barmenu ul{display:block;margin:0;padding:0}#barmenu ul li{margin:0px;display:block;padding-left:10px;background-color:#777;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c6c6c), color-stop(1, #777));background:-moz-linear-gradient(center top, #6c6c6c 5%, #777 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#6c6c6c;cursor:pointer;border:1px solid #888;border-bottom:1px solid #555}#barmenu ul li:hover{background-color:#6c6c6c;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #666), color-stop(1, #5c5c5c));background:-moz-linear-gradient(center top, #666 5%, #5c5c5c 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#666}#barmenu ul li:first-child{border-top-left-radius:5px;border-top-right-radius:5px}#barmenu ul li:last-child{border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-bottom:1px}#barmenu ul li span,#barmenu ul li a{display:table-cell;height:50px;width:238px;vertical-align:middle;color:white}#item_picker{position:absolute;width:250px;color:#555;display:none;z-index:101;border:2px solid #ddd;border-radius:5px}#item_picker ul{display:block;margin:0;padding:0}#item_picker ul li{margin:0px;display:block;padding-left:10px;background-color:rgba(255,255,255,0.95);margin-bottom:1px;cursor:pointer}#item_picker ul li:hover{background-color:rgba(240,240,240,0.7)}#item_picker ul li:first-child{border-top-left-radius:5px;border-top-right-radius:5px}#item_picker ul li:last-child{border-bottom-left-radius:5px;border-bottom-right-radius:5px}#item_picker ul li span{display:table-cell;height:50px;vertical-align:middle}.menu_item_new,.menu_item_red,.menu_item_blue,.menu_item_green,.menu_item_orange,.menu_item_black,.menu_item_gray,.menu_item_back{cursor:pointer;width:80px;height:20px;padding:80px 2px 2px 2px;text-align:center;display:inline-block;font-family:arial;font-size:13px;font-weight:bold;background-size:80px 80px;background-repeat:no-repeat;font-weight:bold;color:#777;text-decoration:none}.menu_item_new:hover,.menu_item_red:hover,.menu_item_blue:hover,.menu_item_green:hover,.menu_item_orange:hover,.menu_item_black:hover,.menu_item_gray:hover,.menu_item_back:hover{color:#555}.menu_item_new{background-image:url("menu_button_new.png")}.menu_item_new:hover{background-image:url("menu_button_new_hover.png")}.menu_item_red{background-image:url("menu_button_red.png")}.menu_item_red:hover{background-image:url("menu_button_red_hover.png")}.menu_item_blue{background-image:url("menu_button_lightblue.png")}.menu_item_blue:hover{background-image:url("menu_button_lightblue_hover.png")}.menu_item_green{background-image:url("menu_button_lightgreen.png")}.menu_item_green:hover{background-image:url("menu_button_lightgreen_hover.png")}.menu_item_orange{background-image:url("menu_button_orange.png")}.menu_item_orange:hover{background-image:url("menu_button_orange_hover.png")}.menu_item_black{background-image:url("menu_button_black.png")}.menu_item_black:hover{background-image:url("menu_button_black_hover.png")}.menu_item_gray{background-image:url("menu_button_gray.png")}.menu_item_gray:hover{background-image:url("menu_button_gray_hover.png")}.menu_item_back{background-image:url("menu_button_back.png")}.menu_item_back:hover{background-image:url("menu_button_back_hover.png")}.hidden{display:none}.spacer{clear:left;height:18px}.hidden_part{display:none;min-height:600px}.crumblogs{padding-top:20px;padding-bottom:5px;background-color:#aaa;border-radius:5px;position:absolute;left:50px;top:100px;display:none;margin-left:auto;margin-right:auto}.crumblogs .container{padding:20px}.crumblogs table{border-collapse:collapse}.crumblogs table td{border:0}.arrow-bar{height:10px}.arrow-spacer{float:left;width:345px;height:10px}.arrow-up{float:left;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:10px solid #eee}#blurr{display:none;z-index:10;background-color:rgba(100,100,100,0.1);width:2400px;height:1200px;position:fixed;top:0px;left:0}#ajax_box{z-index:20;position:absolute;display:none}#ajax_box #ajax_frame{background-color:white;border-radius:3px;padding-bottom:6px}.developer_toolbar{display:none;width:2px;padding-top:10px;background-color:#333;height:100px;position:fixed;top:100px;left:0px;border-radius:0 1px 1px 0}.developer_toolbar span{color:#888;margin:5px;font-size:13px;cursor:pointer}.developer_toolbar span:hover{color:#aaa}#spinner{z-index:99;position:fixed;top:45%;left:50%;width:0;height:0;overflow:none}.sort_handle{float:left;width:40px;height:30px;background:url(icons.jpg) 0 0;background-size:400px 60px}#search_input{display:none;z-index:99;position:absolute;top:0;left:0;background-color:white;width:250px;border:2px solid gray;border-radius:3px}#search_input #search_input_form{display:block;float:left;border:0;padding:0;margin:0;overflow:none;width:250px}#search_input #search_input_form input#search_input_string{display:block;float:left;border:0;margin:0;width:248px;border-bottom:1px dotted #ddd;height:24px;background:url(search.jpg) no-repeat right #fff;background-size:20px 15px}#search_input #search_input_form input#search_input_string:focus{outline-color:transparent;outline-style:none}#search_input ul#search_input_list{display:block;clear:left;margin:0 0 0;padding:0;min-height:100px}#search_input ul#search_input_list li{display:block;color:#555;border-bottom:1px dotted #ddd;margin:0;padding:5px 3px;cursor:pointer;font-size:14pt}#search_input ul#search_input_list li.selected{background-color:#ddd}#search_input ul#search_input_list li:hover{color:black}.search_input_button{height:29px;width:20px;display:block;float:left;background-color:#ddd;cursor:pointer}.search_input_show{display:block;float:left;background-color:#eee;border:2px solid #ddd;width:200px;height:25px}#msg{z-index:100;display:none;position:fixed;top:0px;left:200px;text-align:center;padding:5px 20px;background-color:yellow;border-width:0 2px 2px 2px;border-color:gray;border-style:solid;border-radius:0 0 10px 10px}#sys_error{z-index:100;display:none;position:absolute;top:0;left:0;background-color:white;border-width:2px;border-color:gray;border-style:solid}#sys_error .sys_error_text{font-size:8pt;padding:5px 20px;color:gray;overflow:scroll}.more_li{height:60px}.more_li .li_spinner{margin-top:40px;width:0;height:0;margin-left:auto;margin-right:auto}.more_li a{display:none}.session_menu:hover{cursor:pointer}.session_menu .session_email{font-size:10pt;color:#ccc}.session_menu .session_email:hover{color:white}.session_menu .session_arrow_down{display:block;margin-top:8px;margin-left:2px;margin-right:3px;float:right;width:0;height:0;border-top:7px solid #ccc;border-left:3px solid transparent;border-right:3px solid transparent;border-bottom:0}.session_menu .session_arrow_down:hover{border-top:7px solid #fff}.design{display:none}.itemplate-input{width:100%;height:300px;background-color:white;border:0;border-left:2px dashed #ddd;padding-left:10px}.auto_expand,.report_expand{clear:left;text-align:center;margin:20px;padding-bottom:20px;height:20px;font-size:14px;line-height:8px;color:#ddd;cursor:pointer}.auto_expand:hover,.report_expand:hover{border-color:#bbb;color:#bbb}.manual_expand{cursor:pointer;color:#ddd;text-align:center;list-style-type:none}.manual_expand:hover{color:gray}.report_expand{display:none}#please_refresh_me{text-align:center;padding-top:100px}textarea:focus{outline-style:none}textarea.itemplate-input{font-size:10pt;font-family:courier}.report_output{font-size:11pt}.report_output .report_container{overflow-x:scroll}.report_output .report_container table.reportlist{width:100%;border-collapse:collapse}.report_output .report_container table.reportlist tr{border-bottom:1px solid #ddd}.report_output .report_container table.reportlist tr td{background-color:none;padding:2px 5px;text-align:right}.report_output .report_container table.reportlist .reportlist-heading{background-color:white;color:gray;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fff), color-stop(1, #eee));background:-moz-linear-gradient(center top, #fff 5%, #eee 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');background-color:#fff;height:32px}.report_output .report_container table.reportlist .reportlist-heading th{padding:0 5px;line-height:32px;height:32px;text-align:right}.report_output .report_container table.reportlist .reportlist-totals{height:24px;line-height:24px;font-weight:bold}.ui-datepicker{background-color:white;border:2px solid #ccc;border-radius:6px;box-shadow:6px 6px 3px rgba(100,100,100,0.3);padding-bottom:14px;width:246px}.ui-datepicker div.ui-datepicker-header{padding:0 22px}.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev,.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next{display:block;cursor:pointer;margin-top:10px;overflow:hidden;width:0;height:0;border-top:5px solid #fff;border-bottom:5px solid #fff}.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev{float:left;border-right:10px solid #ccc}.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev:hover{border-right-color:gray}.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next{float:right;border-left:10px solid #ccc}.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next:hover{border-left-color:gray}.ui-datepicker div.ui-datepicker-header div.ui-datepicker-title{text-align:center;width:166px;color:gray;font-size:10pt;float:left;line-height:30px;overflow:hidden}.ui-datepicker table.ui-datepicker-calendar{border-collapse:collapse}.ui-datepicker table.ui-datepicker-calendar thead{border-top:1px solid #eee;border-bottom:1px solid #eee}.ui-datepicker table.ui-datepicker-calendar thead tr th{text-align:center;color:gray;font-size:14px;line-height:20px}.ui-datepicker table.ui-datepicker-calendar thead tr th.ui-datepicker-week-end{color:#ccc}.ui-datepicker table.ui-datepicker-calendar tbody tr:first-child td{padding-top:6px}.ui-datepicker table.ui-datepicker-calendar tbody tr td a{font-size:18px;text-align:center;display:block;width:30px;height:22px;line-height:22px;color:gray;margin:2px 0}.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a{color:#ccc}.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a:hover{color:gray}.ui-datepicker table.ui-datepicker-calendar tbody tr a.ui-state-active{background-color:#eee}.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-today a{text-decoration:underline}.ui-datepicker table.ui-datepicker-calendar tbody tr a:hover{color:black}.ui-datepicker table.ui-datepicker-calendar td:first-child,.ui-datepicker table.ui-datepicker-calendar th:first-child{padding-left:12px}.ui-datepicker table.ui-datepicker-calendar td:last-child,.ui-datepicker table.ui-datepicker-calendar th:last-child{padding-right:12px}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+ */
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+/*
+ * Place all the styles related to the matching controller here.
+ * They will automatically be included in application.css.
+
+*/
+/* line 44, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+body {
+  background-color: #eeeeee;
+  font-family: arial;
+  font-size: 14pt;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 53, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#body_inner {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 60, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+a {
+  color: black;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 67, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.login_background {
+  padding: 0;
+  margin: 0;
+  background-color: #eee;
+  background-repeat: repeat-x;
+  background-image: url("background.jpg");
+  background-position: 0px -35px;
+  overflow: hidden;
+}
+
+/* line 77, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginpage_banner {
+  height: 37px;
+  padding: 5px 12px;
+}
+/* line 81, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginpage_banner .loginpage_logo {
+  float: left;
+  min-width: 120px;
+}
+/* line 84, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginpage_banner .loginpage_logo img {
+  border: 0;
+}
+/* line 88, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginpage_banner .loginpage_tagline {
+  margin-top: 16px;
+  margin-left: 20px;
+  float: right;
+  color: #bbb;
+  font-size: 14pt;
+}
+
+/* line 97, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform {
+  background-color: white;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  width: 400px;
+}
+/* line 104, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform .label {
+  margin: 0 20px;
+  font-weight: bold;
+  width: 360px;
+  font-size: 14pt;
+  color: gray;
+}
+/* line 111, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform input {
+  outline: none;
+  -webkit-appearance: none;
+  padding: 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0 20px;
+  border: 2px solid #dddddd;
+  border-radius: 3px;
+  width: 360px;
+  font-size: 14pt;
+  height: 42px;
+}
+/* line 125, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform .buttons .login_button {
+  width: 360px;
+}
+/* line 129, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+/* line 132, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginform .login_message {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px 20px 0 20px;
+}
+
+/* line 141, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginfooter {
+  position: relative;
+  height: 400px;
+  padding-top: 10px;
+  background-color: gray;
+  text-align: center;
+  font-size: 12pt;
+  color: #ddd;
+}
+/* line 149, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginfooter span {
+  cursor: pointer;
+}
+/* line 151, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.loginfooter span:hover {
+  color: #eee;
+}
+
+/* line 158, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.base {
+  padding: 0 5px;
+  margin: 0;
+  background-color: #eee;
+  background-repeat: repeat-x;
+  background-image: url("background.jpg");
+}
+
+/* line 167, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner {
+  text-align: center;
+  height: 20px;
+  color: #dddddd;
+  padding: 8px;
+  font-size: 12pt;
+}
+/* line 173, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner a {
+  color: #dddddd;
+  text-decoration: none;
+}
+/* line 178, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner a:hover {
+  color: white;
+}
+/* line 181, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner .session_info {
+  float: right;
+  min-width: 120px;
+}
+/* line 185, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner .mini_logo {
+  float: left;
+  min-width: 120px;
+  text-align: left;
+}
+/* line 189, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.banner .mini_logo img {
+  border: 0;
+}
+
+/* line 195, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.footmenu {
+  text-align: center;
+  height: 20px;
+  color: #dddddd;
+  padding: 20px;
+  font-size: 12pt;
+}
+/* line 201, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.footmenu a {
+  color: #dddddd;
+  text-decoration: none;
+}
+/* line 205, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.footmenu a:hover {
+  color: white;
+}
+
+/* line 211, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar, .heading_buttons {
+  height: 40px;
+  color: gray;
+  padding-left: 0px;
+}
+/* line 215, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right, .heading_buttons .right {
+  float: right;
+}
+/* line 217, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .button, .heading_buttons .right .button {
+  color: gray;
+  float: right;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+/* line 228, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .button:hover, .heading_buttons .right .button:hover {
+  color: #666;
+}
+/* line 231, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .sort_button, .heading_buttons .right .sort_button {
+  font-size: 17px;
+  line-height: 17px;
+  margin-top: 5px;
+  color: white;
+  background-color: #999;
+  float: right;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+/* line 243, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .sort_button.save, .heading_buttons .right .sort_button.save {
+  padding-left: 15px;
+  padding-right: 10px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+/* line 249, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .sort_button.exit, .heading_buttons .right .sort_button.exit {
+  margin-left: 2px;
+  padding-left: 6px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+/* line 257, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .right .sort_button:hover, .heading_buttons .right .sort_button:hover {
+  background-color: #777;
+}
+/* line 262, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .left .search_form, .heading_buttons .left .search_form {
+  margin-left: 6px;
+  display: none;
+  float: left;
+}
+/* line 266, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .left .search_form input.index_search_box, .heading_buttons .left .search_form input.index_search_box {
+  outline: none;
+  -webkit-appearance: none;
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 0 10px;
+  font-size: 12pt;
+  margin-top: 6px;
+  height: 24px;
+  border-color: #999;
+  border-style: solid;
+  border-width: 2px 0 2px 2px;
+  border-radius: 15px 0 0 15px;
+}
+/* line 281, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .left .search_form .index_search_button, .heading_buttons .left .search_form .index_search_button {
+  outline: none;
+  -webkit-appearance: none;
+  height: 28px;
+  color: white;
+  background-color: #999;
+  display: block;
+  float: left;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 28px;
+  margin: 6px 2px 5px 0;
+  padding: 0 12px 0 5px;
+  border-radius: 0 14px 14px 0;
+  -webkit-border-radius: 0 14px 14px 0;
+  border: 0;
+}
+/* line 297, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .left .search_form .index_search_button:hover, .heading_buttons .left .search_form .index_search_button:hover {
+  background-color: #777;
+}
+/* line 300, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .left .search_form .index_search_button:active, .heading_buttons .left .search_form .index_search_button:active {
+  background-color: #555;
+}
+/* line 307, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .barmenu_link, .heading_buttons .barmenu_link {
+  margin-top: 5px;
+  margin-right: 3px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  background: url(icons.jpg) 0 0;
+  background-size: 400px 60px;
+  height: 30px;
+  width: 40px;
+}
+/* line 317, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar .barmenu_link:hover, .heading_buttons .barmenu_link:hover {
+  background: url(icons.jpg) 0 -30px;
+  background-size: 400px 60px;
+}
+
+/* line 324, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttonbar {
+  border-bottom: 1px dotted #dddddd;
+}
+
+/* line 329, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+ul.barmenu {
+  display: none;
+}
+
+/* line 337, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.search_icon, .new, .icon_edit, .icon_delete, .icon_gear {
+  float: left;
+  width: 40px;
+  height: 30px;
+}
+
+/* line 344, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.search_icon {
+  margin-top: 5px;
+  cursor: pointer;
+  background: url(icons.jpg) -40px 0;
+  background-size: 400px 60px;
+}
+/* line 349, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.search_icon:hover {
+  background: url(icons.jpg) -40px -30px;
+  background-size: 400px 60px;
+}
+
+/* line 354, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.new {
+  background: url(icons.jpg) -120px 0;
+  background-size: 400px 60px;
+}
+/* line 357, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.new:hover {
+  background: url(icons.jpg) -120px -30px;
+  background-size: 400px 60px;
+}
+
+/* line 363, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_edit {
+  background: url(icons.jpg) -160px 0;
+  background-size: 400px 60px;
+}
+/* line 366, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_edit:hover {
+  background: url(icons.jpg) -160px -30px;
+  background-size: 400px 60px;
+}
+
+/* line 372, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_gear {
+  background: url(icons.jpg) -240px 0;
+  background-size: 400px 60px;
+}
+/* line 375, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_gear:hover {
+  background: url(icons.jpg) -240px -30px;
+  background-size: 400px 60px;
+}
+
+/* line 382, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_delete {
+  background: url(icons.jpg) -200px 0;
+  background-size: 400px 60px;
+}
+/* line 385, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.icon_delete:hover {
+  background: url(icons.jpg) -200px -30px;
+  background-size: 400px 60px;
+}
+
+/* line 392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 {
+  height: 36px;
+  border-radius: 3px 3px 0 0;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px dotted #dddddd;
+  text-align: center;
+  color: gray;
+  font-size: 12pt;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+/* line 404, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 span.title {
+  display: block;
+  margin: 0 50px;
+  line-height: 36px;
+  height: 36px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+}
+/* line 413, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 span.title:hover {
+  color: #555;
+}
+/* line 416, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 span.title:active {
+  transform: scale(1.1);
+  transition: 0.1s;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: 0.1s;
+}
+/* line 423, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 427, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 .div_close {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+/* line 437, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 .div_close .link_close {
+  cursor: pointer;
+  diplay: block;
+  float: left;
+  position: relative;
+  margin-top: 3px;
+  background: url(icons.jpg) -80px -30px;
+  background-size: 400px 60px;
+  opacity: 0.7;
+  height: 30px;
+  width: 40px;
+}
+/* line 448, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 .div_close .link_close:hover {
+  opacity: 1;
+}
+/* line 451, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 .div_close .link_close:active {
+  transform: scale(1.1);
+  transition: 0.2s;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: 0.2s;
+}
+/* line 459, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.heading1 .heading_buttons {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 469, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumb {
+  border-radius: 3px 3px 0 0;
+  padding: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 9pt;
+  text-align: center;
+  margin-bottom: 0;
+  background-image: url(heading.jpg);
+  color: gray;
+  font-weight: bold;
+  height: 15px;
+  overflow: hidden;
+}
+/* line 482, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumb span {
+  cursor: pointer;
+  color: #777;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 487, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumb span:hover {
+  color: #555;
+}
+
+/* line 493, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_crumb {
+  display: none;
+}
+
+/* line 498, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.page .base0 {
+  min-width: 250px;
+}
+
+/* line 502, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumbs {
+  position: relative;
+  max-width: 1200px;
+  min-width: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 511, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.base1 {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  min-width: 200px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  min-height: 1000px;
+}
+
+/* line 524, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.base2 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: white;
+  min-height: 400px;
+}
+
+/* line 532, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.pagefooter {
+  position: relative;
+  z-index: 1;
+  height: 200px;
+  background-color: gray;
+  padding: 0;
+  padding-top: 15px;
+}
+
+/* line 541, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.blankline {
+  height: 1px;
+  clear: left;
+}
+
+/* line 546, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 550, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul {
+  border-top: 1px solid transparent;
+  clear: left;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 557, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item, .stlist ul li.sort_item {
+  z-index: 99;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 10px;
+  position: relative;
+  display: block;
+  border-bottom: 1px dotted #dddddd;
+  cursor: arrow;
+  overflow: hidden;
+}
+/* line 569, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item:after, .stlist ul li.sort_item:after {
+  border-top: 4px solid transparent;
+  border-left: 8px solid #dddddd;
+  border-bottom: 4px solid transparent;
+  border-right: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: -45px;
+  height: 0;
+  width: 0;
+  top: 50%;
+  margin-top: -4px;
+  content: "";
+}
+/* line 585, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item .content, .stlist ul li.sort_item .content {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+/* line 589, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item .content .content_text, .stlist ul li.sort_item .content .content_text {
+  padding-left: 3px;
+  display: inline-block;
+  margin: 1px;
+  width: 270px;
+}
+/* line 594, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item .content .content_text .inline_label, .stlist ul li.sort_item .content .content_text .inline_label {
+  display: inline;
+  color: gray;
+}
+/* line 601, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item {
+  border-bottom: 1px dotted #dddddd;
+}
+/* line 603, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.item:hover {
+  background-color: #f9f9f9;
+}
+/* line 607, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.sort_item {
+  background-color: #eee;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px 6px;
+}
+/* line 612, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.sort_item:hover {
+  background-color: #e8e8e8;
+}
+/* line 616, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.sort_target {
+  position: relative;
+  z-index: 100;
+  cursor: move;
+  height: 0px;
+  border-top: 15px solid transparent;
+  margin-top: -15px;
+  border-bottom: 15px solid transparent;
+  margin-bottom: -15px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+/* line 627, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist ul li.sort_target:hover {
+  background-image: url(hline_3px_gray.jpg);
+  background-repeat: repeat-x;
+  background-position: left;
+}
+/* line 635, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist .ulhead {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 639, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist .ulhead span {
+  padding-left: 3px;
+  display: inline-block;
+  margin: 1px;
+  width: 190px;
+  font-weight: bold;
+}
+
+/* line 649, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.stlist_old table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 658, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simple_show {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+/* line 667, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element, .custom_element {
+  padding: 10px 20px;
+  overflow: hidden;
+  clear: left;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 672, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element .label, .custom_element .label {
+  padding-top: 2px;
+  color: gray;
+  min-height: 26px;
+  float: left;
+}
+/* line 677, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element .label span, .custom_element .label span {
+  margin: 0;
+  display: block;
+  float: left;
+  min-width: 200px;
+  padding: 3px 9px 1px 9px;
+  color: gray;
+}
+/* line 686, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element .value, .custom_element .value {
+  min-height: 18px;
+  padding: 3px 2px 1px 2px;
+  line-height: 23px;
+  padding-left: 7px;
+  float: left;
+  width: 200px;
+}
+/* line 694, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element .free_content, .custom_element .free_content {
+  clear: left;
+  padding: 3px 2px 1px 2px;
+}
+
+/* line 699, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element.drillable {
+  cursor: pointer;
+}
+/* line 701, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.show_element.drillable:hover {
+  background-color: #f9f9f9;
+}
+
+/* line 706, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.elm_expandor_link {
+  cursor: pointer;
+}
+/* line 708, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.elm_expandor_link span:hover {
+  color: #555;
+}
+
+/* line 715, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform {
+  overflow: hidden;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* line 716, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .input_form {
+  overflow: hidden;
+}
+/* line 724, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 729, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field, .simpleform .visible_input_elements .field-hl, .simpleform .visible_input_elements .field-vl {
+  margin-top: 10px;
+  overflow: hidden;
+  clear: left;
+  list-style-type: none;
+  padding: 0 0 0 20px;
+  min-height: 30px;
+  min-width: 540px;
+}
+/* line 737, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .label, .simpleform .visible_input_elements .field-hl .label, .simpleform .visible_input_elements .field-vl .label {
+  color: white;
+  background-color: #ddd;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  float: left;
+  border-color: #ccc;
+  border-style: solid;
+  width: 240px;
+  height: 20px;
+  text-align: center;
+  cursor: default;
+}
+/* line 750, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .labelleft, .simpleform .visible_input_elements .field-hl .labelleft, .simpleform .visible_input_elements .field-vl .labelleft {
+  border-width: 2px 0 2px 2px;
+  border-radius: 6px 0 0 6px;
+}
+/* line 754, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .labeltop, .simpleform .visible_input_elements .field-hl .labeltop, .simpleform .visible_input_elements .field-vl .labeltop {
+  border-width: 2px 2px 0 2px;
+  border-radius: 6px 6px 0 0;
+}
+/* line 759, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .display, .simpleform .visible_input_elements .field-hl .display, .simpleform .visible_input_elements .field-vl .display {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 240px;
+  overflow: hidden;
+  border: 2px solid #cccccc;
+}
+/* line 767, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .display .value, .simpleform .visible_input_elements .field-hl .display .value, .simpleform .visible_input_elements .field-vl .display .value {
+  background-color: #eee;
+  color: #888;
+  padding: 2px 2px 2px 2px;
+  font-size: 14pt;
+  width: 240px;
+  min-height: 24px;
+  overflow: none;
+}
+/* line 777, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input, .simpleform .visible_input_elements .field .wide_input, .simpleform .visible_input_elements .field-hl .input, .simpleform .visible_input_elements .field-hl .wide_input, .simpleform .visible_input_elements .field-vl .input, .simpleform .visible_input_elements .field-vl .wide_input {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 28px;
+  border: 2px solid #cccccc;
+  overflow: hidden;
+}
+/* line 785, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .free_text, .simpleform .visible_input_elements .field .input .fixed_list, .simpleform .visible_input_elements .field .input .search_input_field, .simpleform .visible_input_elements .field .input .date_picker, .simpleform .visible_input_elements .field .input .field_loading, .simpleform .visible_input_elements .field .wide_input .free_text, .simpleform .visible_input_elements .field .wide_input .fixed_list, .simpleform .visible_input_elements .field .wide_input .search_input_field, .simpleform .visible_input_elements .field .wide_input .date_picker, .simpleform .visible_input_elements .field .wide_input .field_loading, .simpleform .visible_input_elements .field-hl .input .free_text, .simpleform .visible_input_elements .field-hl .input .fixed_list, .simpleform .visible_input_elements .field-hl .input .search_input_field, .simpleform .visible_input_elements .field-hl .input .date_picker, .simpleform .visible_input_elements .field-hl .input .field_loading, .simpleform .visible_input_elements .field-hl .wide_input .free_text, .simpleform .visible_input_elements .field-hl .wide_input .fixed_list, .simpleform .visible_input_elements .field-hl .wide_input .search_input_field, .simpleform .visible_input_elements .field-hl .wide_input .date_picker, .simpleform .visible_input_elements .field-hl .wide_input .field_loading, .simpleform .visible_input_elements .field-vl .input .free_text, .simpleform .visible_input_elements .field-vl .input .fixed_list, .simpleform .visible_input_elements .field-vl .input .search_input_field, .simpleform .visible_input_elements .field-vl .input .date_picker, .simpleform .visible_input_elements .field-vl .input .field_loading, .simpleform .visible_input_elements .field-vl .wide_input .free_text, .simpleform .visible_input_elements .field-vl .wide_input .fixed_list, .simpleform .visible_input_elements .field-vl .wide_input .search_input_field, .simpleform .visible_input_elements .field-vl .wide_input .date_picker, .simpleform .visible_input_elements .field-vl .wide_input .field_loading {
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+  padding: 0 2px 0 2px;
+  font-size: 14pt;
+  width: 236px;
+  margin: 0px;
+  height: 28px;
+  border: 0;
+  overflow: hidden;
+}
+/* line 796, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .free_text, .simpleform .visible_input_elements .field .wide_input .free_text, .simpleform .visible_input_elements .field-hl .input .free_text, .simpleform .visible_input_elements .field-hl .wide_input .free_text, .simpleform .visible_input_elements .field-vl .input .free_text, .simpleform .visible_input_elements .field-vl .wide_input .free_text {
+  padding-left: 3px;
+}
+/* line 799, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .field_loading, .simpleform .visible_input_elements .field .wide_input .field_loading, .simpleform .visible_input_elements .field-hl .input .field_loading, .simpleform .visible_input_elements .field-hl .wide_input .field_loading, .simpleform .visible_input_elements .field-vl .input .field_loading, .simpleform .visible_input_elements .field-vl .wide_input .field_loading {
+  background-color: #eee;
+  background-image: url("preloader2.gif");
+  background-size: 80px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 28px;
+  text-align: center;
+  color: gray;
+}
+/* line 809, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .checkbox, .simpleform .visible_input_elements .field .wide_input .checkbox, .simpleform .visible_input_elements .field-hl .input .checkbox, .simpleform .visible_input_elements .field-hl .wide_input .checkbox, .simpleform .visible_input_elements .field-vl .input .checkbox, .simpleform .visible_input_elements .field-vl .wide_input .checkbox {
+  width: 140px;
+  background-color: #eee;
+  height: 28px;
+  text-align: center;
+  padding: 0 3px;
+  /*              padding-left:100px; */
+}
+/* line 816, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .checkbox input, .simpleform .visible_input_elements .field .wide_input .checkbox input, .simpleform .visible_input_elements .field-hl .input .checkbox input, .simpleform .visible_input_elements .field-hl .wide_input .checkbox input, .simpleform .visible_input_elements .field-vl .input .checkbox input, .simpleform .visible_input_elements .field-vl .wide_input .checkbox input {
+  margin: 2px 0 0 0;
+  height: 24px;
+  width: 24px;
+}
+/* line 822, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input input.search_input_field, .simpleform .visible_input_elements .field .wide_input input.search_input_field, .simpleform .visible_input_elements .field-hl .input input.search_input_field, .simpleform .visible_input_elements .field-hl .wide_input input.search_input_field, .simpleform .visible_input_elements .field-vl .input input.search_input_field, .simpleform .visible_input_elements .field-vl .wide_input input.search_input_field {
+  padding-left: 3px;
+  background: url(dropdown.png) no-repeat right #eeeeee;
+  background-size: 12px 24px;
+  line-height: 28px;
+  width: 235px;
+}
+/* line 829, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input select, .simpleform .visible_input_elements .field .wide_input select, .simpleform .visible_input_elements .field-hl .input select, .simpleform .visible_input_elements .field-hl .wide_input select, .simpleform .visible_input_elements .field-vl .input select, .simpleform .visible_input_elements .field-vl .wide_input select {
+  line-height: 1.5;
+  border-radius: 0;
+  -webkit-appearance: none;
+  height: 32px;
+  overflow: hidden;
+  background: url(dropdown.png) no-repeat right #eeeeee;
+  background-size: 12px 24px;
+}
+/* line 838, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input textarea, .simpleform .visible_input_elements .field .wide_input textarea, .simpleform .visible_input_elements .field-hl .input textarea, .simpleform .visible_input_elements .field-hl .wide_input textarea, .simpleform .visible_input_elements .field-vl .input textarea, .simpleform .visible_input_elements .field-vl .wide_input textarea {
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  border: 0;
+  font-size: 10pt;
+  width: 236px;
+  height: 66px;
+  resize: none;
+  overflow-y: scroll;
+}
+/* line 850, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .input_wrapper, .simpleform .visible_input_elements .field .wide_input .input_wrapper, .simpleform .visible_input_elements .field-hl .input .input_wrapper, .simpleform .visible_input_elements .field-hl .wide_input .input_wrapper, .simpleform .visible_input_elements .field-vl .input .input_wrapper, .simpleform .visible_input_elements .field-vl .wide_input .input_wrapper {
+  -webkit-appearance: none;
+  margin: 0;
+  font-size: 14pt;
+  width: 236px;
+  min-height: 24px;
+}
+/* line 857, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .input .free_text:focus, .simpleform .visible_input_elements .field .input textarea:focus, .simpleform .visible_input_elements .field .wide_input .free_text:focus, .simpleform .visible_input_elements .field .wide_input textarea:focus, .simpleform .visible_input_elements .field-hl .input .free_text:focus, .simpleform .visible_input_elements .field-hl .input textarea:focus, .simpleform .visible_input_elements .field-hl .wide_input .free_text:focus, .simpleform .visible_input_elements .field-hl .wide_input textarea:focus, .simpleform .visible_input_elements .field-vl .input .free_text:focus, .simpleform .visible_input_elements .field-vl .input textarea:focus, .simpleform .visible_input_elements .field-vl .wide_input .free_text:focus, .simpleform .visible_input_elements .field-vl .wide_input textarea:focus {
+  outline-style: none;
+  outline: none;
+}
+/* line 862, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .inputright, .simpleform .visible_input_elements .field-hl .inputright, .simpleform .visible_input_elements .field-vl .inputright {
+  border-radius: 0 6px 6px 0;
+}
+/* line 865, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .inputbottom, .simpleform .visible_input_elements .field-hl .inputbottom, .simpleform .visible_input_elements .field-vl .inputbottom {
+  clear: left;
+  border-radius: 0 0 6px 6px;
+}
+/* line 870, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .error, .simpleform .visible_input_elements .field-hl .error, .simpleform .visible_input_elements .field-vl .error {
+  display: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  font-style: bold;
+  height: 20px;
+  border: 2px solid red;
+  text-align: center;
+  background-color: #f55;
+}
+/* line 880, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .error span, .simpleform .visible_input_elements .field-hl .error span, .simpleform .visible_input_elements .field-vl .error span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 10pt;
+  display: block;
+  line-height: 20px;
+}
+/* line 890, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .errorright, .simpleform .visible_input_elements .field-hl .errorright, .simpleform .visible_input_elements .field-vl .errorright {
+  border-radius: 0 6px 6px 0;
+  margin-top: 4px;
+  border-left: 0;
+  margin-left: 1px;
+}
+/* line 896, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field .errorbottom, .simpleform .visible_input_elements .field-hl .errorbottom, .simpleform .visible_input_elements .field-vl .errorbottom {
+  margin-left: 10px;
+  margin-right: 10px;
+  clear: left;
+  border-top: 1px solid #995555;
+  border-radius: 0 0 6px 6px;
+}
+/* line 905, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field-vl .label {
+  border-width: 2px 2px 0 2px;
+  width: 479px;
+  border-radius: 8px 8px 0 0;
+}
+/* line 910, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field-vl .input {
+  clear: left;
+}
+/* line 912, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .visible_input_elements .field-vl .input textarea {
+  width: 475px;
+}
+/* line 918, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .date {
+  position: relative;
+  float: left;
+  height: 32px;
+  width: 240px;
+}
+/* line 923, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .date select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  display: block;
+  float: left;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 2px 2px 2px 0;
+  padding: 2px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0;
+  height: 32px;
+  overflow: hidden;
+  background: url(dropdown.png) no-repeat right #eeeeee;
+  background-size: 12px 24px;
+}
+/* line 942, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .date .day {
+  width: 60px;
+}
+/* line 943, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .date .month {
+  width: 90px;
+}
+/* line 944, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .date .year {
+  width: 90px;
+  border-width: 2px;
+}
+/* line 947, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .new_field {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 2px dotted #dddddd;
+  padding: 0 2px;
+  width: 480px;
+  clear: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 32px;
+  color: #ddd;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+}
+/* line 961, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.simpleform .new_field:hover {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+/* line 969, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons {
+  margin-top: 0;
+  clear: left;
+  margin-left: 20px;
+  height: 30px;
+  padding-top: 2px;
+}
+/* line 976, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .save_button, .buttons .wide_button, .buttons .login_button, .buttons .upload_button, .buttons .close_button {
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /*    -moz-box-shadow:inset 0px 1px 0px 0px #e184f3; */
+  /*    -webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;  */
+  /*    box-shadow:inset 0px 1px 0px 0px #e184f3;  */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+  background: -moz-linear-gradient(center top, #c123de 5%, #a20dbd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #c123de;
+  font-weight: bold;
+  border-radius: 6px;
+  display: block;
+  float: left;
+  color: #eee;
+  font-family: arial;
+  font-size: 12pt;
+  text-decoration: none;
+  /*    text-shadow:1px 1px 0px #9b14b3; */
+  margin: 0;
+  margin-top: 11px;
+  cursor: pointer;
+  border: 0px solid #a511c0;
+  padding: 0;
+}
+/* line 1000, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .save_button:hover, .buttons .wide_button:hover, .buttons .login_button:hover, .buttons .upload_button:hover, .buttons .close_button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+  background: -moz-linear-gradient(center top, #a20dbd 5%, #c123de 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #a20dbd;
+}
+/* line 1005, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .save_button:focus, .buttons .wide_button:focus, .buttons .login_button:focus, .buttons .upload_button:focus, .buttons .close_button:focus {
+  outline-style: none;
+  outline: none;
+}
+/* line 1010, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .upload_button {
+  width: 480px;
+  height: 40px;
+  line-height: 40px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 1018, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .save_button, .buttons .close_button {
+  width: 480px;
+  height: 32px;
+  line-height: 32px;
+}
+/* line 1023, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .close_button {
+  margin-left: 3px;
+  width: 80px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #aaaaaa));
+  background: -moz-linear-gradient(center top, #cccccc 5%, #aaaaaa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #cccccc;
+}
+/* line 1029, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .close_button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #aaaaaa), color-stop(1, #cccccc));
+  background: -moz-linear-gradient(center top, #aaaaaa 5%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #aaaaaa;
+}
+/* line 1035, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .wide_button {
+  width: 480px;
+  height: 32px;
+  line-height: 32px;
+}
+/* line 1040, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .login_button {
+  width: 360px;
+  height: 42px;
+  line-height: 42px;
+}
+/* line 1045, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  box-shadow: inset 0px 1px 0px 0px #e184f3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+  background: -moz-linear-gradient(center top, #c123de 5%, #a20dbd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #c123de;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 0px solid #a511c0;
+  display: block;
+  float: left;
+  color: #eee;
+  font-family: arial;
+  font-size: 12pt;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #9b14b3;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 1067, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .button:focus {
+  outline-style: none;
+  outline: none;
+}
+/* line 1073, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+  background: -moz-linear-gradient(center top, #a20dbd 5%, #c123de 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #a20dbd;
+}
+/* line 1078, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.buttons .button-arrow-down {
+  margin: 5px 0 0 3px;
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #eeeeee;
+}
+
+/* line 1104, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.design-button {
+  font-size: 0;
+  margin-left: 5px;
+  border-top: 9px solid #aaaaaa;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+}
+/* line 1112, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.design-button:hover {
+  border-top-color: gray;
+}
+
+/* line 1120, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.button_to {
+  display: inline-block;
+}
+
+/* line 1125, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 1134, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.smallbutton {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+  background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #ededed;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid gainsboro;
+  display: inline-block;
+  color: #777777;
+  font-family: arial;
+  font-size: 10pt;
+  line-height: 16px;
+  font-weight: bold;
+  padding: 1px 5px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px white;
+}
+
+/* line 1157, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.smallbutton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+  background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color: #dfdfdf;
+}
+
+/* line 1163, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.smallbutton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 1168, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.foot {
+  clear: left;
+  height: 20px;
+}
+
+/* line 1177, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.offwhite_background_header {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #eeeeee));
+  background: -moz-linear-gradient(center top, white 5%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: white;
+  height: 30px;
+}
+
+/* line 1183, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.offwhite_background {
+  background-color: #eee;
+  overflow: hidden;
+}
+
+/* line 1187, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.offwhite_background_footer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eeeeee), color-stop(1, white));
+  background: -moz-linear-gradient(center top, #eeeeee 5%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #eeeeee;
+  height: 30px;
+}
+
+/* line 1194, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabs {
+  display: none;
+}
+
+/* line 1197, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #f9f9f9));
+  background: -moz-linear-gradient(center top, white 5%, #f9f9f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: white;
+  overflow: visible;
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+  height: 32px;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 1207, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_active, .tabset .tab_inactive, .tabset .tab_vlist {
+  height: 22px;
+  line-height: 23px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  float: left;
+  font-weight: bold;
+}
+/* line 1218, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_active {
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #eee;
+  border-bottom: 0;
+  background-color: white;
+  min-width: 50px;
+  padding: 5px 15px;
+  margin-right: 5px;
+  margin-bottom: -1px;
+  color: gray;
+}
+/* line 1231, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_inactive, .tabset .tab_vlist {
+  background-color: #eee;
+  margin-right: 5px;
+  color: #999;
+}
+/* line 1235, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_inactive:hover, .tabset .tab_vlist:hover {
+  background-color: #ddd;
+  color: #bbb;
+}
+/* line 1240, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_inactive {
+  min-width: 50px;
+  padding: 5px 15px;
+}
+/* line 1244, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tab_vlist {
+  padding: 5px 12px;
+}
+/* line 1247, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tabset .tabs_vlist_link {
+  float: left;
+  width: 0;
+  height: 0;
+  margin-top: 7px;
+  border-top: 10px solid #999999;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  line-height: 0;
+  font-size: 0;
+}
+
+/* line 1259, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.hidden_tabset {
+  display: none;
+}
+
+/* line 1264, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.tab_body {
+  clear: left;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0 10px 10px 10px;
+}
+
+/* line 1271, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.container, .container_show, container_list {
+  margin-top: 0;
+  clear: left;
+  overflow: hidden;
+  background-color: white;
+  min-height: 100px;
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 1280, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.container_input {
+  margin-top: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  clear: left;
+  overflow: hidden;
+  background-color: white;
+}
+/* line 1287, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.container_input span.text {
+  padding-left: 20px;
+}
+
+/* line 1293, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_container .menu_background {
+  border-radius: 3px;
+  background-color: white;
+  margin: 0;
+  clear: left;
+  overflow: hidden;
+  min-height: 1000px;
+}
+/* line 1300, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_container .menu_background .menu_heading {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  font-size: 12pt;
+  color: #555;
+  text-align: center;
+  border-bottom: 1px dotted #aaaaaa;
+}
+/* line 1308, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_container .menu_background .menu_item, .menu_container .menu_background .menu_item_design {
+  cursor: pointer;
+  width: 80px;
+  height: 100px;
+  margin: 15px 0 0 15px;
+  float: left;
+  display: none;
+}
+
+/* line 1319, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new, .menu_red, .menu_blue, .menu_green, .menu_orange, .menu_black, .menu_gray, .menu_back {
+  width: 76px;
+  height: 96px;
+  float: left;
+  cursor: pointer;
+}
+/* line 1324, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_item_icon, .menu_red .menu_item_icon, .menu_blue .menu_item_icon, .menu_green .menu_item_icon, .menu_orange .menu_item_icon, .menu_black .menu_item_icon, .menu_gray .menu_item_icon, .menu_back .menu_item_icon {
+  overflow: hidden;
+  width: 74px;
+  height: 74px;
+  float: left;
+  background-color: #ddd;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+/* line 1333, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_item_icon:hover, .menu_red .menu_item_icon:hover, .menu_blue .menu_item_icon:hover, .menu_green .menu_item_icon:hover, .menu_orange .menu_item_icon:hover, .menu_black .menu_item_icon:hover, .menu_gray .menu_item_icon:hover, .menu_back .menu_item_icon:hover {
+  transform: scale(1.03);
+  transition: 0.1s;
+  -webkit-transform: scale(1.03);
+  -webkit-transition: 0.1s;
+}
+/* line 1339, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_item_icon:active, .menu_red .menu_item_icon:active, .menu_blue .menu_item_icon:active, .menu_green .menu_item_icon:active, .menu_orange .menu_item_icon:active, .menu_black .menu_item_icon:active, .menu_gray .menu_item_icon:active, .menu_back .menu_item_icon:active {
+  transform: scale(1.1);
+  transition: 0.1s;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: 0.1s;
+}
+/* line 1345, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_item_icon .img, .menu_red .menu_item_icon .img, .menu_blue .menu_item_icon .img, .menu_green .menu_item_icon .img, .menu_orange .menu_item_icon .img, .menu_black .menu_item_icon .img, .menu_gray .menu_item_icon .img, .menu_back .menu_item_icon .img {
+  position: relative;
+  width: 74px;
+  height: 74px;
+}
+/* line 1349, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_item_icon .img img, .menu_red .menu_item_icon .img img, .menu_blue .menu_item_icon .img img, .menu_green .menu_item_icon .img img, .menu_orange .menu_item_icon .img img, .menu_black .menu_item_icon .img img, .menu_gray .menu_item_icon .img img, .menu_back .menu_item_icon .img img {
+  margin: 2px;
+  position: absolute;
+}
+/* line 1355, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_title, .menu_red .menu_title, .menu_blue .menu_title, .menu_green .menu_title, .menu_orange .menu_title, .menu_black .menu_title, .menu_gray .menu_title, .menu_back .menu_title {
+  padding-top: 2px;
+  width: 76px;
+  height: 18px;
+  float: left;
+  clear: left;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #777;
+  text-decoration: none;
+}
+/* line 1367, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_new .menu_title:hover, .menu_red .menu_title:hover, .menu_blue .menu_title:hover, .menu_green .menu_title:hover, .menu_orange .menu_title:hover, .menu_black .menu_title:hover, .menu_gray .menu_title:hover, .menu_back .menu_title:hover {
+  color: #555;
+}
+
+/* line 1376, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_red .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffcccc), color-stop(1, #ee8888));
+  background: -moz-linear-gradient(center top, #ffcccc 5%, #ee8888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #ffcccc;
+}
+
+/* line 1381, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_blue .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eeeeff), color-stop(1, #ccccee));
+  background: -moz-linear-gradient(center top, #eeeeff 5%, #ccccee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #eeeeff;
+}
+
+/* line 1386, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_green .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33fdc0), color-stop(1, #03eba6));
+  background: -moz-linear-gradient(center top, #33fdc0 5%, #03eba6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #33fdc0;
+}
+
+/* line 1391, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_orange .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffe377), color-stop(1, #ffc367));
+  background: -moz-linear-gradient(center top, #ffe377 5%, #ffc367 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #ffe377;
+}
+
+/* line 1396, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_black .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #999999), color-stop(1, #666666));
+  background: -moz-linear-gradient(center top, #999999 5%, #666666 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #999999;
+  border-color: gray;
+}
+
+/* line 1402, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_gray .menu_item_icon {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eeeeee), color-stop(1, #cccccc));
+  background: -moz-linear-gradient(center top, #eeeeee 5%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #eeeeee;
+}
+
+/* line 1409, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu {
+  position: absolute;
+  width: 250px;
+  color: white;
+  display: none;
+  z-index: 101;
+  border-radius: 5px;
+}
+/* line 1416, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 1420, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul li {
+  margin: 0px;
+  display: block;
+  padding-left: 10px;
+  background-color: #777;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c6c6c), color-stop(1, #777777));
+  background: -moz-linear-gradient(center top, #6c6c6c 5%, #777777 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #6c6c6c;
+  cursor: pointer;
+  border: 1px solid #888888;
+  border-bottom: 1px solid #555555;
+}
+/* line 1429, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul li:hover {
+  background-color: #6c6c6c;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #5c5c5c));
+  background: -moz-linear-gradient(center top, #666666 5%, #5c5c5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: #666666;
+}
+/* line 1437, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 1441, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 1px;
+}
+/* line 1446, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#barmenu ul li span, #barmenu ul li a {
+  display: table-cell;
+  height: 50px;
+  width: 238px;
+  vertical-align: middle;
+  color: white;
+}
+
+/* line 1456, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker {
+  position: absolute;
+  width: 250px;
+  color: #555;
+  display: none;
+  z-index: 101;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+}
+/* line 1464, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 1468, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul li {
+  margin: 0px;
+  display: block;
+  padding-left: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+/* line 1475, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul li:hover {
+  background-color: rgba(240, 240, 240, 0.7);
+}
+/* line 1476, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 1480, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 1484, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#item_picker ul li span {
+  display: table-cell;
+  height: 50px;
+  vertical-align: middle;
+}
+
+/* line 1495, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_new, .menu_item_red, .menu_item_blue, .menu_item_green, .menu_item_orange, .menu_item_black, .menu_item_gray, .menu_item_back {
+  cursor: pointer;
+  width: 80px;
+  height: 20px;
+  padding: 80px 2px 2px 2px;
+  text-align: center;
+  display: inline-block;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: #777;
+  text-decoration: none;
+}
+/* line 1510, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_new:hover, .menu_item_red:hover, .menu_item_blue:hover, .menu_item_green:hover, .menu_item_orange:hover, .menu_item_black:hover, .menu_item_gray:hover, .menu_item_back:hover {
+  color: #555;
+}
+
+/* line 1518, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_new {
+  background-image: url("menu_button_new.png");
+}
+/* line 1520, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_new:hover {
+  background-image: url("menu_button_new_hover.png");
+}
+
+/* line 1525, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_red {
+  background-image: url("menu_button_red.png");
+}
+/* line 1527, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_red:hover {
+  background-image: url("menu_button_red_hover.png");
+}
+
+/* line 1531, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_blue {
+  background-image: url("menu_button_lightblue.png");
+}
+/* line 1533, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_blue:hover {
+  background-image: url("menu_button_lightblue_hover.png");
+}
+
+/* line 1538, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_green {
+  background-image: url("menu_button_lightgreen.png");
+}
+/* line 1540, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_green:hover {
+  background-image: url("menu_button_lightgreen_hover.png");
+}
+
+/* line 1545, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_orange {
+  background-image: url("menu_button_orange.png");
+}
+/* line 1547, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_orange:hover {
+  background-image: url("menu_button_orange_hover.png");
+}
+
+/* line 1551, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_black {
+  background-image: url("menu_button_black.png");
+}
+/* line 1553, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_black:hover {
+  background-image: url("menu_button_black_hover.png");
+}
+
+/* line 1557, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_gray {
+  background-image: url("menu_button_gray.png");
+}
+/* line 1559, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_gray:hover {
+  background-image: url("menu_button_gray_hover.png");
+}
+
+/* line 1563, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_back {
+  background-image: url("menu_button_back.png");
+}
+/* line 1565, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.menu_item_back:hover {
+  background-image: url("menu_button_back_hover.png");
+}
+
+/* line 1571, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.hidden {
+  display: none;
+}
+
+/* line 1575, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.spacer {
+  clear: left;
+  height: 18px;
+}
+
+/* line 1580, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.hidden_part {
+  display: none;
+  min-height: 600px;
+}
+
+/* line 1586, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumblogs {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #aaa;
+  border-radius: 5px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 1597, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumblogs .container {
+  padding: 20px;
+}
+/* line 1600, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumblogs table {
+  border-collapse: collapse;
+}
+/* line 1602, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.crumblogs table td {
+  border: 0;
+}
+
+/* line 1608, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.arrow-bar {
+  height: 10px;
+}
+
+/* line 1611, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.arrow-spacer {
+  float: left;
+  width: 345px;
+  height: 10px;
+}
+
+/* line 1616, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.arrow-up {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #eeeeee;
+}
+
+/* line 1624, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#blurr {
+  display: none;
+  z-index: 10;
+  background-color: rgba(100, 100, 100, 0.1);
+  width: 2400px;
+  height: 1200px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+}
+
+/* line 1635, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#ajax_box {
+  z-index: 20;
+  position: absolute;
+  display: none;
+}
+/* line 1639, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#ajax_box #ajax_frame {
+  background-color: white;
+  border-radius: 3px;
+  padding-bottom: 6px;
+}
+
+/* line 1646, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.developer_toolbar {
+  display: none;
+  width: 2px;
+  padding-top: 10px;
+  background-color: #333;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  border-radius: 0 1px 1px 0;
+}
+/* line 1656, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.developer_toolbar span {
+  color: #888;
+  margin: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+/* line 1661, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.developer_toolbar span:hover {
+  color: #aaa;
+}
+
+/* line 1668, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#spinner {
+  z-index: 99;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  overflow: none;
+}
+
+/* line 1678, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.sort_handle {
+  float: left;
+  width: 40px;
+  height: 30px;
+  background: url(icons.jpg) 0 0;
+  background-size: 400px 60px;
+}
+
+/* line 1686, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 250px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+/* line 1696, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input #search_input_form {
+  display: block;
+  float: left;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: none;
+  width: 250px;
+}
+/* line 1704, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input #search_input_form input#search_input_string {
+  display: block;
+  float: left;
+  border: 0;
+  margin: 0;
+  width: 248px;
+  border-bottom: 1px dotted #dddddd;
+  height: 24px;
+  background: url(search.jpg) no-repeat right white;
+  background-size: 20px 15px;
+}
+/* line 1714, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input #search_input_form input#search_input_string:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+/* line 1720, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input ul#search_input_list {
+  display: block;
+  clear: left;
+  margin: 0 0 0;
+  padding: 0;
+  min-height: 100px;
+}
+/* line 1726, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input ul#search_input_list li {
+  display: block;
+  color: #555;
+  border-bottom: 1px dotted #dddddd;
+  margin: 0;
+  padding: 5px 3px;
+  cursor: pointer;
+  font-size: 14pt;
+}
+/* line 1734, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input ul#search_input_list li.selected {
+  background-color: #ddd;
+}
+/* line 1737, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#search_input ul#search_input_list li:hover {
+  color: black;
+}
+
+/* line 1744, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.search_input_button {
+  height: 29px;
+  width: 20px;
+  display: block;
+  float: left;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* line 1752, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.search_input_show {
+  display: block;
+  float: left;
+  background-color: #eee;
+  border: 2px solid #dddddd;
+  width: 200px;
+  height: 25px;
+}
+
+/* line 1761, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#msg {
+  z-index: 100;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 200px;
+  text-align: center;
+  padding: 5px 20px;
+  background-color: yellow;
+  border-width: 0 2px 2px 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 0 0 10px 10px;
+}
+
+/* line 1776, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#sys_error {
+  z-index: 100;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+}
+/* line 1786, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#sys_error .sys_error_text {
+  font-size: 8pt;
+  padding: 5px 20px;
+  color: gray;
+  overflow: scroll;
+}
+
+/* line 1795, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.more_li {
+  height: 60px;
+}
+/* line 1797, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.more_li .li_spinner {
+  margin-top: 40px;
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 1804, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.more_li a {
+  display: none;
+}
+
+/* line 1810, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.session_menu:hover {
+  cursor: pointer;
+}
+/* line 1813, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.session_menu .session_email {
+  font-size: 10pt;
+  color: #ccc;
+}
+/* line 1816, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.session_menu .session_email:hover {
+  color: white;
+}
+/* line 1820, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.session_menu .session_arrow_down {
+  display: block;
+  margin-top: 8px;
+  margin-left: 2px;
+  margin-right: 3px;
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 7px solid #cccccc;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 0;
+}
+/* line 1832, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.session_menu .session_arrow_down:hover {
+  border-top: 7px solid white;
+}
+
+/* line 1838, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.design {
+  display: none;
+}
+
+/* line 1842, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.itemplate-input {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border: 0;
+  border-left: 2px dashed #dddddd;
+  padding-left: 10px;
+}
+
+/* line 1851, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.auto_expand, .report_expand {
+  clear: left;
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 8px;
+  color: #ddd;
+  cursor: pointer;
+}
+/* line 1861, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.auto_expand:hover, .report_expand:hover {
+  border-color: #bbb;
+  color: #bbb;
+}
+
+/* line 1867, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.manual_expand {
+  cursor: pointer;
+  color: #ddd;
+  text-align: center;
+  list-style-type: none;
+}
+/* line 1872, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.manual_expand:hover {
+  color: gray;
+}
+
+/* line 1877, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_expand {
+  display: none;
+}
+
+/* line 1881, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+#please_refresh_me {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* line 1886, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+textarea:focus {
+  outline-style: none;
+}
+
+/* line 1890, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+textarea.itemplate-input {
+  font-size: 10pt;
+  font-family: courier;
+}
+
+/* line 1895, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output {
+  font-size: 11pt;
+}
+/* line 1897, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container {
+  overflow-x: scroll;
+}
+/* line 1899, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* line 1902, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist tr {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 1904, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist tr td {
+  background-color: none;
+  padding: 2px 5px;
+  text-align: right;
+}
+/* line 1910, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist .reportlist-heading {
+  background-color: white;
+  color: gray;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #eeeeee));
+  background: -moz-linear-gradient(center top, white 5%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top-color', endColorstr='$bottom-color');
+  background-color: white;
+  height: 32px;
+}
+/* line 1917, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist .reportlist-heading th {
+  padding: 0 5px;
+  line-height: 32px;
+  height: 32px;
+  text-align: right;
+}
+/* line 1924, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.report_output .report_container table.reportlist .reportlist-totals {
+  height: 24px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+/* line 1935, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker {
+  background-color: white;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  box-shadow: 6px 6px 3px rgba(100, 100, 100, 0.3);
+  padding-bottom: 14px;
+  width: 246px;
+}
+/* line 1943, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header {
+  padding: 0 22px;
+}
+/* line 1945, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev, .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
+  display: block;
+  cursor: pointer;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+/* line 1955, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev {
+  float: left;
+  border-right: 10px solid #cccccc;
+}
+/* line 1958, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev:hover {
+  border-right-color: gray;
+}
+/* line 1962, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
+  float: right;
+  border-left: 10px solid #cccccc;
+}
+/* line 1965, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header a.ui-datepicker-next:hover {
+  border-left-color: gray;
+}
+/* line 1969, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker div.ui-datepicker-header div.ui-datepicker-title {
+  text-align: center;
+  width: 166px;
+  color: gray;
+  font-size: 10pt;
+  float: left;
+  line-height: 30px;
+  overflow: hidden;
+}
+/* line 1980, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar {
+  border-collapse: collapse;
+}
+/* line 1982, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar thead {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 1986, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar thead tr th {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 1992, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar thead tr th.ui-datepicker-week-end {
+  color: #cccccc;
+}
+/* line 1997, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr:first-child td {
+  padding-top: 6px;
+}
+/* line 2000, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr td a {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 30px;
+  height: 22px;
+  line-height: 22px;
+  color: gray;
+  margin: 2px 0;
+}
+/* line 2010, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a {
+  color: #ccc;
+}
+/* line 2012, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a:hover {
+  color: gray;
+}
+/* line 2014, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr a.ui-state-active {
+  background-color: #eeeeee;
+}
+/* line 2015, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-today a {
+  text-decoration: underline;
+}
+/* line 2016, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody tr a:hover {
+  color: black;
+}
+/* line 2019, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar td:first-child, .ui-datepicker table.ui-datepicker-calendar th:first-child {
+  padding-left: 12px;
+}
+/* line 2022, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+.ui-datepicker table.ui-datepicker-calendar td:last-child, .ui-datepicker table.ui-datepicker-calendar th:last-child {
+  padding-right: 12px;
+}

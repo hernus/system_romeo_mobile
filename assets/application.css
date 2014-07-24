@@ -1418,7 +1418,6 @@ ul.barmenu {
   height: 74px;
   float: left;
   border-radius: 10px;
-  border: 2px solid white;
   opacity: 0.8;
   text-align: center;
 }
@@ -1463,32 +1462,37 @@ ul.barmenu {
 /* line 1377, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_red {
   background-color: #ee8888;
+  border: 2px solid gray;
 }
 
 /* line 1382, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_blue {
   background-color: #ccccee;
+  border: 2px solid gray;
 }
 
 /* line 1387, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_green {
   background-color: #03eba6;
+  border: 2px solid gray;
 }
 
 /* line 1392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_orange {
   background-color: #ffc367;
+  border: 2px solid gray;
 }
 
 /* line 1397, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_black {
   background-color: #666666;
-  border-color: gray;
+  border: 2px solid gray;
 }
 
 /* line 1403, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_gray {
   background-color: #cccccc;
+  border: 2px solid gray;
 }
 
 /* line 1410, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */

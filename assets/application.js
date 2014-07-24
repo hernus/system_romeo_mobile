@@ -31721,18 +31721,17 @@ function system_romeo(){
   };
 
   that.getScript = function(url) {
-	$.ajax({
-	    type: 'GET',
-	    dataType: "script",
-	    url: url,
-	    headers: {
-	        "X-Requested-With":"XMLHttpRequest"
-	    }
-	}).done(function(data) { 
-	}).fail(function(){
-		alert('Ajax request failed')
-	});
-
+    $.ajax({
+        type: 'GET',
+        dataType: "script",
+        url: url,
+        headers: {
+            "X-Requested-With":"XMLHttpRequest"
+        }
+    }).done(function(data) { 
+    }).fail(function(){
+      alert('Ajax request failed')
+    });
   };
 
   that.prepareInputFields = function(el) {
@@ -31926,7 +31925,7 @@ function system_romeo(){
      $("#base1 .page:last").remove();
      that.goto_last_page();
      that.load_active_page_if_empty();
-     $.getScript(ro.session.host_url + "/set_active_crumb?cid=" + that.active_crumb_id());     
+     $.getScript(ro.session.host_url + "/set_active_crumb?cid=" + that.active_crumb_id());
   }
 
   that.load_active_page_if_empty = function(){

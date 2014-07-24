@@ -31426,11 +31426,11 @@ function system_romeo(){
   that.window_onload = function(){
     
 //  Event Binding for Ajax Queue    
-    $(document).bind("ajaxSend", function(event,xhr,options){ 
+    $(document).bind("ajax:beforeSend", function(event,xhr,options){ 
+        options.xhrFields = {withCredentials: true};
         if(options.url.search("cid=")<0){ 
           options.url = that.addParam(options.url , "pcid" , ro.active_crumb_id()); 
         };
-        xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
         xhr.fail(
               function( jqxhr, settings, exception ) { 
                 ro.ajaxEnd();
@@ -31721,7 +31721,18 @@ function system_romeo(){
   };
 
   that.getScript = function(url) {
-    $.getScript(url).fail(function(){alert('server could not be reached')})
+	$.ajax({
+	    type: 'GET',
+	    dataType: "script",
+	    url: url,
+	    headers: {
+	        "X-Requested-With":"XMLHttpRequest"
+	    }
+	}).done(function(data) { 
+	}).fail(function(){
+		alert('Ajax request failed')
+	});
+
   };
 
   that.prepareInputFields = function(el) {
@@ -31783,7 +31794,7 @@ function system_romeo(){
     var active_tab = tabset.find("div.tab.tab_active");
     active_tab.show();
     var base1_width = $("#base1").width();
-    if(base1_width<400){active_tab.css({width:200})}else{active_tab.css({width:""})};  
+    if(base1_width<400){active_tab.css({width:212})}else{active_tab.css({width:""})};  
 
     var available_width = base1_width - active_tab.outerWidth() - 100;      
     var inactive_tabs = tabset.children("div.tab.tab_inactive");
@@ -31915,7 +31926,7 @@ function system_romeo(){
      $("#base1 .page:last").remove();
      that.goto_last_page();
      that.load_active_page_if_empty();
-     $.getScript("/set_active_crumb?cid=" + that.active_crumb_id());     
+     $.getScript(ro.session.host_url + "/set_active_crumb?cid=" + that.active_crumb_id());     
   }
 
   that.load_active_page_if_empty = function(){

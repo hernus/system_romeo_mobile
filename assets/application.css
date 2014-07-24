@@ -1405,14 +1405,14 @@ ul.barmenu {
 }
 
 /* line 1326, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new, .menu_red, .menu_blue, .menu_green, .menu_orange, .menu_black, .menu_gray, .menu_back {
+.menu_item_outer {
   width: 78px;
   height: 98px;
   float: left;
   cursor: pointer;
 }
 /* line 1331, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_item_icon, .menu_red .menu_item_icon, .menu_blue .menu_item_icon, .menu_green .menu_item_icon, .menu_orange .menu_item_icon, .menu_black .menu_item_icon, .menu_gray .menu_item_icon, .menu_back .menu_item_icon {
+.menu_item_outer .menu_item_icon {
   overflow: hidden;
   width: 74px;
   height: 74px;
@@ -1423,26 +1423,26 @@ ul.barmenu {
   text-align: center;
 }
 /* line 1340, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_item_icon:hover, .menu_red .menu_item_icon:hover, .menu_blue .menu_item_icon:hover, .menu_green .menu_item_icon:hover, .menu_orange .menu_item_icon:hover, .menu_black .menu_item_icon:hover, .menu_gray .menu_item_icon:hover, .menu_back .menu_item_icon:hover {
+.menu_item_outer .menu_item_icon:hover {
   opacity: 1;
 }
 /* line 1343, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_item_icon:active, .menu_red .menu_item_icon:active, .menu_blue .menu_item_icon:active, .menu_green .menu_item_icon:active, .menu_orange .menu_item_icon:active, .menu_black .menu_item_icon:active, .menu_gray .menu_item_icon:active, .menu_back .menu_item_icon:active {
+.menu_item_outer .menu_item_icon:active {
   border-color: red;
 }
 /* line 1346, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_item_icon .img, .menu_red .menu_item_icon .img, .menu_blue .menu_item_icon .img, .menu_green .menu_item_icon .img, .menu_orange .menu_item_icon .img, .menu_black .menu_item_icon .img, .menu_gray .menu_item_icon .img, .menu_back .menu_item_icon .img {
+.menu_item_outer .menu_item_icon .img {
   position: relative;
   width: 74px;
   height: 74px;
 }
 /* line 1350, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_item_icon .img img, .menu_red .menu_item_icon .img img, .menu_blue .menu_item_icon .img img, .menu_green .menu_item_icon .img img, .menu_orange .menu_item_icon .img img, .menu_black .menu_item_icon .img img, .menu_gray .menu_item_icon .img img, .menu_back .menu_item_icon .img img {
+.menu_item_outer .menu_item_icon .img img {
   margin: 2px;
   position: absolute;
 }
 /* line 1356, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_title, .menu_red .menu_title, .menu_blue .menu_title, .menu_green .menu_title, .menu_orange .menu_title, .menu_black .menu_title, .menu_gray .menu_title, .menu_back .menu_title {
+.menu_item_outer .menu_title {
   padding-top: 2px;
   width: 76px;
   height: 18px;
@@ -1456,38 +1456,38 @@ ul.barmenu {
   text-decoration: none;
 }
 /* line 1368, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_new .menu_title:hover, .menu_red .menu_title:hover, .menu_blue .menu_title:hover, .menu_green .menu_title:hover, .menu_orange .menu_title:hover, .menu_black .menu_title:hover, .menu_gray .menu_title:hover, .menu_back .menu_title:hover {
+.menu_item_outer .menu_title:hover {
   color: #555;
 }
 
 /* line 1377, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_red .menu_item_icon {
+.mnu_red {
   background-color: #ee8888;
 }
 
 /* line 1382, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_blue .menu_item_icon {
+.mnu_blue {
   background-color: #ccccee;
 }
 
 /* line 1387, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_green .menu_item_icon {
+.mnu_green {
   background-color: #03eba6;
 }
 
 /* line 1392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_orange .menu_item_icon {
+.mnu_orange {
   background-color: #ffc367;
 }
 
 /* line 1397, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_black .menu_item_icon {
+.mnu_black {
   background-color: #666666;
   border-color: gray;
 }
 
 /* line 1403, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
-.menu_gray .menu_item_icon {
+.mnu_gray {
   background-color: #cccccc;
 }
 

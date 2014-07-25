@@ -1465,11 +1465,13 @@ ul.barmenu {
 /* line 1382, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_red {
   background-color: #ee8888;
+ -webkit-background-clip:padding-box;
 }
 
 /* line 1387, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_blue {
   background-color: #ccccee;
+ -webkit-background-clip:padding-box;
 }
 
 /* line 1392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */

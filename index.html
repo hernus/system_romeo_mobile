@@ -22,7 +22,7 @@
     ro.current_tenant_id = 2;
     ro.design_mode = 0;
     ro.session = {person_id:6};
-
+    ro.adjust_styles($("body"));
       // ro.goto_last_page();
       // ro.refresh_page("2876");
   }
@@ -60,11 +60,11 @@
             </div>
             <div class="container">
               <div class=buttons>
-                <div class=save_button onclick="ro.getScript('http://192.168.1.10:3000?ajax=true&phonegap_logon=true');"> Login to Localhost 
+                <div class="save_button adapt_w1" onclick="ro.getScript('http://192.168.1.10:3000?ajax=true&phonegap_logon=true');"> Login to Localhost 
                 </div>
               </div>
               <div class=buttons>
-                <div class=save_button onclick="ro.getScript('http://systemromeo.com?ajax=true&phonegap_logon=true');"> Login to System Romeo 
+                <div class="save_button adapt_w1" onclick="ro.getScript('http://systemromeo.com?ajax=true&phonegap_logon=true');"> Login to System Romeo 
                 </div>
               </div>              
             </div>

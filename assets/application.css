@@ -816,19 +816,19 @@ ul.barmenu {
   height: 20px;
   text-align: center;
   cursor: default;
-  -webkit-background-clip:padding-box;             
+  -webkit-background-clip: padding-box;
 }
-/* line 763, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 764, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .labelleft, .simpleform .visible_input_elements .field-hl .labelleft, .simpleform .visible_input_elements .field-vl .labelleft {
   border-width: 2px 0 2px 2px;
   border-radius: 6px 0 0 6px;
 }
-/* line 767, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 768, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .labeltop, .simpleform .visible_input_elements .field-hl .labeltop, .simpleform .visible_input_elements .field-vl .labeltop {
   border-width: 2px 2px 0 2px;
   border-radius: 6px 6px 0 0;
 }
-/* line 772, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 773, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .display, .simpleform .visible_input_elements .field-hl .display, .simpleform .visible_input_elements .field-vl .display {
   float: left;
   margin: 0;
@@ -838,7 +838,7 @@ ul.barmenu {
   overflow: hidden;
   border: 2px solid #cccccc;
 }
-/* line 780, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 781, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .display .value, .simpleform .visible_input_elements .field-hl .display .value, .simpleform .visible_input_elements .field-vl .display .value {
   background-color: #eee;
   color: #888;
@@ -848,7 +848,7 @@ ul.barmenu {
   min-height: 24px;
   overflow: none;
 }
-/* line 790, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 791, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input, .simpleform .visible_input_elements .field .wide_input, .simpleform .visible_input_elements .field-hl .input, .simpleform .visible_input_elements .field-hl .wide_input, .simpleform .visible_input_elements .field-vl .input, .simpleform .visible_input_elements .field-vl .wide_input {
   float: left;
   margin: 0;
@@ -859,7 +859,7 @@ ul.barmenu {
   overflow: hidden;
   -webkit-background-clip: padding-box;
 }
-/* line 799, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 800, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .free_text, .simpleform .visible_input_elements .field .input .fixed_list, .simpleform .visible_input_elements .field .input .search_input_field, .simpleform .visible_input_elements .field .input .date_picker, .simpleform .visible_input_elements .field .input .field_loading, .simpleform .visible_input_elements .field .wide_input .free_text, .simpleform .visible_input_elements .field .wide_input .fixed_list, .simpleform .visible_input_elements .field .wide_input .search_input_field, .simpleform .visible_input_elements .field .wide_input .date_picker, .simpleform .visible_input_elements .field .wide_input .field_loading, .simpleform .visible_input_elements .field-hl .input .free_text, .simpleform .visible_input_elements .field-hl .input .fixed_list, .simpleform .visible_input_elements .field-hl .input .search_input_field, .simpleform .visible_input_elements .field-hl .input .date_picker, .simpleform .visible_input_elements .field-hl .input .field_loading, .simpleform .visible_input_elements .field-hl .wide_input .free_text, .simpleform .visible_input_elements .field-hl .wide_input .fixed_list, .simpleform .visible_input_elements .field-hl .wide_input .search_input_field, .simpleform .visible_input_elements .field-hl .wide_input .date_picker, .simpleform .visible_input_elements .field-hl .wide_input .field_loading, .simpleform .visible_input_elements .field-vl .input .free_text, .simpleform .visible_input_elements .field-vl .input .fixed_list, .simpleform .visible_input_elements .field-vl .input .search_input_field, .simpleform .visible_input_elements .field-vl .input .date_picker, .simpleform .visible_input_elements .field-vl .input .field_loading, .simpleform .visible_input_elements .field-vl .wide_input .free_text, .simpleform .visible_input_elements .field-vl .wide_input .fixed_list, .simpleform .visible_input_elements .field-vl .wide_input .search_input_field, .simpleform .visible_input_elements .field-vl .wide_input .date_picker, .simpleform .visible_input_elements .field-vl .wide_input .field_loading {
   -webkit-border-radius: 0;
   -webkit-appearance: none;
@@ -871,11 +871,11 @@ ul.barmenu {
   border: 0;
   overflow: hidden;
 }
-/* line 810, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 811, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .free_text, .simpleform .visible_input_elements .field .wide_input .free_text, .simpleform .visible_input_elements .field-hl .input .free_text, .simpleform .visible_input_elements .field-hl .wide_input .free_text, .simpleform .visible_input_elements .field-vl .input .free_text, .simpleform .visible_input_elements .field-vl .wide_input .free_text {
   padding-left: 3px;
 }
-/* line 813, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 814, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .field_loading, .simpleform .visible_input_elements .field .wide_input .field_loading, .simpleform .visible_input_elements .field-hl .input .field_loading, .simpleform .visible_input_elements .field-hl .wide_input .field_loading, .simpleform .visible_input_elements .field-vl .input .field_loading, .simpleform .visible_input_elements .field-vl .wide_input .field_loading {
   background-color: #eee;
   background-image: url("preloader2.gif");
@@ -886,7 +886,7 @@ ul.barmenu {
   text-align: center;
   color: gray;
 }
-/* line 823, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 824, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .checkbox, .simpleform .visible_input_elements .field .wide_input .checkbox, .simpleform .visible_input_elements .field-hl .input .checkbox, .simpleform .visible_input_elements .field-hl .wide_input .checkbox, .simpleform .visible_input_elements .field-vl .input .checkbox, .simpleform .visible_input_elements .field-vl .wide_input .checkbox {
   width: 140px;
   background-color: #eee;
@@ -895,13 +895,13 @@ ul.barmenu {
   padding: 0 3px;
   /*              padding-left:100px; */
 }
-/* line 830, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 831, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .checkbox input, .simpleform .visible_input_elements .field .wide_input .checkbox input, .simpleform .visible_input_elements .field-hl .input .checkbox input, .simpleform .visible_input_elements .field-hl .wide_input .checkbox input, .simpleform .visible_input_elements .field-vl .input .checkbox input, .simpleform .visible_input_elements .field-vl .wide_input .checkbox input {
   margin: 2px 0 0 0;
   height: 24px;
   width: 24px;
 }
-/* line 836, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 837, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input input.search_input_field, .simpleform .visible_input_elements .field .wide_input input.search_input_field, .simpleform .visible_input_elements .field-hl .input input.search_input_field, .simpleform .visible_input_elements .field-hl .wide_input input.search_input_field, .simpleform .visible_input_elements .field-vl .input input.search_input_field, .simpleform .visible_input_elements .field-vl .wide_input input.search_input_field {
   padding-left: 3px;
   background: url(dropdown.png) no-repeat right #eeeeee;
@@ -909,7 +909,7 @@ ul.barmenu {
   line-height: 28px;
   width: 235px;
 }
-/* line 843, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 844, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input select, .simpleform .visible_input_elements .field .wide_input select, .simpleform .visible_input_elements .field-hl .input select, .simpleform .visible_input_elements .field-hl .wide_input select, .simpleform .visible_input_elements .field-vl .input select, .simpleform .visible_input_elements .field-vl .wide_input select {
   line-height: 1.5;
   border-radius: 0;
@@ -919,7 +919,7 @@ ul.barmenu {
   background: url(dropdown.png) no-repeat right #eeeeee;
   background-size: 12px 24px;
 }
-/* line 852, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 853, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input textarea, .simpleform .visible_input_elements .field .wide_input textarea, .simpleform .visible_input_elements .field-hl .input textarea, .simpleform .visible_input_elements .field-hl .wide_input textarea, .simpleform .visible_input_elements .field-vl .input textarea, .simpleform .visible_input_elements .field-vl .wide_input textarea {
   -webkit-border-radius: 0;
   -webkit-appearance: none;
@@ -932,7 +932,7 @@ ul.barmenu {
   resize: none;
   overflow-y: scroll;
 }
-/* line 864, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 865, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .input_wrapper, .simpleform .visible_input_elements .field .wide_input .input_wrapper, .simpleform .visible_input_elements .field-hl .input .input_wrapper, .simpleform .visible_input_elements .field-hl .wide_input .input_wrapper, .simpleform .visible_input_elements .field-vl .input .input_wrapper, .simpleform .visible_input_elements .field-vl .wide_input .input_wrapper {
   -webkit-appearance: none;
   margin: 0;
@@ -940,21 +940,21 @@ ul.barmenu {
   width: 236px;
   min-height: 24px;
 }
-/* line 871, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 872, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .input .free_text:focus, .simpleform .visible_input_elements .field .input textarea:focus, .simpleform .visible_input_elements .field .wide_input .free_text:focus, .simpleform .visible_input_elements .field .wide_input textarea:focus, .simpleform .visible_input_elements .field-hl .input .free_text:focus, .simpleform .visible_input_elements .field-hl .input textarea:focus, .simpleform .visible_input_elements .field-hl .wide_input .free_text:focus, .simpleform .visible_input_elements .field-hl .wide_input textarea:focus, .simpleform .visible_input_elements .field-vl .input .free_text:focus, .simpleform .visible_input_elements .field-vl .input textarea:focus, .simpleform .visible_input_elements .field-vl .wide_input .free_text:focus, .simpleform .visible_input_elements .field-vl .wide_input textarea:focus {
   outline-style: none;
   outline: none;
 }
-/* line 876, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 877, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .inputright, .simpleform .visible_input_elements .field-hl .inputright, .simpleform .visible_input_elements .field-vl .inputright {
   border-radius: 0 6px 6px 0;
 }
-/* line 879, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 880, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .inputbottom, .simpleform .visible_input_elements .field-hl .inputbottom, .simpleform .visible_input_elements .field-vl .inputbottom {
   clear: left;
   border-radius: 0 0 6px 6px;
 }
-/* line 884, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 885, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .error, .simpleform .visible_input_elements .field-hl .error, .simpleform .visible_input_elements .field-vl .error {
   display: none;
   position: relative;
@@ -966,7 +966,7 @@ ul.barmenu {
   text-align: center;
   background-color: #f55;
 }
-/* line 894, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 895, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .error span, .simpleform .visible_input_elements .field-hl .error span, .simpleform .visible_input_elements .field-vl .error span {
   padding-left: 10px;
   padding-right: 10px;
@@ -976,14 +976,14 @@ ul.barmenu {
   display: block;
   line-height: 20px;
 }
-/* line 904, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 905, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .errorright, .simpleform .visible_input_elements .field-hl .errorright, .simpleform .visible_input_elements .field-vl .errorright {
   border-radius: 0 6px 6px 0;
   margin-top: 4px;
   border-left: 0;
   margin-left: 1px;
 }
-/* line 910, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 911, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .errorbottom, .simpleform .visible_input_elements .field-hl .errorbottom, .simpleform .visible_input_elements .field-vl .errorbottom {
   margin-left: 10px;
   margin-right: 10px;
@@ -991,28 +991,28 @@ ul.barmenu {
   border-top: 1px solid #995555;
   border-radius: 0 0 6px 6px;
 }
-/* line 919, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 920, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field-vl .label {
   border-width: 2px 2px 0 2px;
   width: 479px;
   border-radius: 8px 8px 0 0;
 }
-/* line 924, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 925, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field-vl .input {
   clear: left;
 }
-/* line 926, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 927, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field-vl .input textarea {
   width: 475px;
 }
-/* line 932, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 933, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .date {
   position: relative;
   float: left;
   height: 32px;
   width: 240px;
 }
-/* line 937, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 938, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .date select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1032,20 +1032,20 @@ ul.barmenu {
   background: url(dropdown.png) no-repeat right #eeeeee;
   background-size: 12px 24px;
 }
-/* line 956, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 957, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .date .day {
   width: 60px;
 }
-/* line 957, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 958, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .date .month {
   width: 90px;
 }
-/* line 958, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 959, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .date .year {
   width: 90px;
   border-width: 2px;
 }
-/* line 961, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 962, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .new_field {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1061,13 +1061,13 @@ ul.barmenu {
   text-align: center;
   line-height: 30px;
 }
-/* line 975, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 976, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .new_field:hover {
   color: #aaa;
   border-color: #aaa;
 }
 
-/* line 983, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 984, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons {
   margin-top: 0;
   clear: left;
@@ -1075,7 +1075,7 @@ ul.barmenu {
   height: 30px;
   padding-top: 2px;
 }
-/* line 990, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 991, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .save_button, .buttons .wide_button, .buttons .login_button, .buttons .upload_button, .buttons .close_button {
   text-align: center;
   box-sizing: border-box;
@@ -1100,17 +1100,17 @@ ul.barmenu {
   border: 0px solid #a511c0;
   padding: 0;
 }
-/* line 1014, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1015, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .save_button:hover, .buttons .wide_button:hover, .buttons .login_button:hover, .buttons .upload_button:hover, .buttons .close_button:hover {
   background-color: #c123de;
   -webkit-background-clip: padding-box;
 }
-/* line 1019, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1020, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .save_button:focus, .buttons .wide_button:focus, .buttons .login_button:focus, .buttons .upload_button:focus, .buttons .close_button:focus {
   outline-style: none;
   outline: none;
 }
-/* line 1024, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1025, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .upload_button {
   width: 480px;
   height: 40px;
@@ -1119,37 +1119,37 @@ ul.barmenu {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1032, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1033, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .save_button, .buttons .close_button {
   width: 480px;
   height: 32px;
   line-height: 32px;
 }
-/* line 1037, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1038, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .close_button {
   margin-left: 3px;
   width: 80px;
   background-color: #aaaaaa;
   -webkit-background-clip: padding-box;
 }
-/* line 1043, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1044, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .close_button:hover {
   background-color: #cccccc;
   -webkit-background-clip: padding-box;
 }
-/* line 1049, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1050, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .wide_button {
   width: 480px;
   height: 32px;
   line-height: 32px;
 }
-/* line 1054, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1055, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .login_button {
   width: 360px;
   height: 42px;
   line-height: 42px;
 }
-/* line 1059, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1060, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .button {
   -moz-box-shadow: inset 0px 1px 0px 0px #e184f3;
   -webkit-box-shadow: inset 0px 1px 0px 0px #e184f3;
@@ -1172,17 +1172,17 @@ ul.barmenu {
   margin: 0;
   cursor: pointer;
 }
-/* line 1081, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1082, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .button:focus {
   outline-style: none;
   outline: none;
 }
-/* line 1087, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1088, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .button:hover {
   background-color: #c123de;
   -webkit-background-clip: padding-box;
 }
-/* line 1092, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1093, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .buttons .button-arrow-down {
   margin: 5px 0 0 3px;
   float: left;
@@ -1193,7 +1193,7 @@ ul.barmenu {
   border-top: 10px solid #eeeeee;
 }
 
-/* line 1118, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1119, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .design-button {
   font-size: 0;
   margin-left: 5px;
@@ -1203,23 +1203,23 @@ ul.barmenu {
   border-bottom: 0;
   cursor: pointer;
 }
-/* line 1126, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1127, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .design-button:hover {
   border-top-color: gray;
 }
 
-/* line 1134, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1135, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .button_to {
   display: inline-block;
 }
 
-/* line 1139, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1140, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .button:active {
   position: relative;
   top: 1px;
 }
 
-/* line 1148, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1149, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .smallbutton {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
   -webkit-box-shadow: inset 0px 1px 0px 0px white;
@@ -1241,7 +1241,7 @@ ul.barmenu {
   text-shadow: 1px 1px 0px white;
 }
 
-/* line 1171, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1172, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .smallbutton:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
   background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
@@ -1249,44 +1249,44 @@ ul.barmenu {
   background-color: #dfdfdf;
 }
 
-/* line 1177, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1178, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .smallbutton:active {
   position: relative;
   top: 1px;
 }
 
-/* line 1182, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1183, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .foot {
   clear: left;
   height: 20px;
 }
 
-/* line 1191, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1192, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .offwhite_background_header {
   background-color: #eeeeee;
   -webkit-background-clip: padding-box;
   height: 30px;
 }
 
-/* line 1197, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1198, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .offwhite_background {
   background-color: #eee;
   overflow: hidden;
 }
 
-/* line 1201, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1202, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .offwhite_background_footer {
   background-color: white;
   -webkit-background-clip: padding-box;
   height: 30px;
 }
 
-/* line 1208, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1209, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabs {
   display: none;
 }
 
-/* line 1211, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1212, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset {
   background-color: #f9f9f9;
   -webkit-background-clip: padding-box;
@@ -1296,7 +1296,7 @@ ul.barmenu {
   height: 32px;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 1221, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1222, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_active, .tabset .tab_inactive, .tabset .tab_vlist {
   height: 22px;
   line-height: 23px;
@@ -1307,7 +1307,7 @@ ul.barmenu {
   float: left;
   font-weight: bold;
 }
-/* line 1232, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1233, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_active {
   border-width: 1px 1px 0 1px;
   border-style: solid;
@@ -1320,27 +1320,27 @@ ul.barmenu {
   margin-bottom: -1px;
   color: gray;
 }
-/* line 1245, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1246, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_inactive, .tabset .tab_vlist {
   background-color: #eee;
   margin-right: 5px;
   color: #999;
 }
-/* line 1249, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1250, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_inactive:hover, .tabset .tab_vlist:hover {
   background-color: #ddd;
   color: #bbb;
 }
-/* line 1254, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1255, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_inactive {
   min-width: 50px;
   padding: 5px 15px;
 }
-/* line 1258, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1259, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tab_vlist {
   padding: 5px 12px;
 }
-/* line 1261, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1262, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tabset .tabs_vlist_link {
   float: left;
   width: 0;
@@ -1353,12 +1353,12 @@ ul.barmenu {
   font-size: 0;
 }
 
-/* line 1273, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1274, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .hidden_tabset {
   display: none;
 }
 
-/* line 1278, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1279, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .tab_body {
   clear: left;
   overflow: hidden;
@@ -1366,7 +1366,7 @@ ul.barmenu {
   border-radius: 0 10px 10px 10px;
 }
 
-/* line 1285, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1286, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .container, .container_show, container_list {
   margin-top: 0;
   clear: left;
@@ -1376,7 +1376,7 @@ ul.barmenu {
   border-radius: 0 0 3px 3px;
 }
 
-/* line 1294, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1295, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .container_input {
   margin-top: 0px;
   margin-left: 0;
@@ -1385,12 +1385,12 @@ ul.barmenu {
   overflow: hidden;
   background-color: white;
 }
-/* line 1301, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1302, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .container_input span.text {
   padding-left: 20px;
 }
 
-/* line 1307, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1308, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_container .menu_background {
   border-radius: 3px;
   background-color: white;
@@ -1399,7 +1399,7 @@ ul.barmenu {
   overflow: hidden;
   min-height: 1000px;
 }
-/* line 1314, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1315, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_container .menu_background .menu_heading {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
@@ -1408,7 +1408,7 @@ ul.barmenu {
   text-align: center;
   border-bottom: 1px dotted #aaaaaa;
 }
-/* line 1322, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1323, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_container .menu_background .menu_item, .menu_container .menu_background .menu_item_design {
   cursor: pointer;
   width: 80px;
@@ -1418,14 +1418,14 @@ ul.barmenu {
   display: none;
 }
 
-/* line 1333, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1334, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer {
   width: 78px;
   height: 98px;
   float: left;
   cursor: pointer;
 }
-/* line 1338, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1339, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon {
   overflow: hidden;
   width: 74px;
@@ -1438,26 +1438,26 @@ ul.barmenu {
   opacity: 0.8;
   text-align: center;
 }
-/* line 1347, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1348, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:hover {
   opacity: 1;
 }
-/* line 1350, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1351, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:active {
   border-color: red;
 }
-/* line 1353, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1354, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img {
   position: relative;
   width: 74px;
   height: 74px;
 }
-/* line 1357, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1358, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img img {
   margin: 2px;
   position: absolute;
 }
-/* line 1363, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1364, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_title {
   padding-top: 2px;
   width: 76px;
@@ -1471,49 +1471,49 @@ ul.barmenu {
   color: #777;
   text-decoration: none;
 }
-/* line 1375, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1376, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_title:hover {
   color: #555;
 }
 
-/* line 1384, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1385, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_red {
   background-color: #ee8888;
   -webkit-background-clip: padding-box;
 }
 
-/* line 1389, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1390, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_blue {
   background-color: #ccccee;
   -webkit-background-clip: padding-box;
 }
 
-/* line 1394, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1395, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_green {
   background-color: #03eba6;
   -webkit-background-clip: padding-box;
 }
 
-/* line 1399, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1400, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_orange {
   background-color: #ffc367;
   -webkit-background-clip: padding-box;
 }
 
-/* line 1404, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1405, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_black {
   background-color: #666666;
   -webkit-background-clip: padding-box;
   border-color: gray;
 }
 
-/* line 1410, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1411, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_gray {
   background-color: #cccccc;
   -webkit-background-clip: padding-box;
 }
 
-/* line 1417, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1418, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu {
   position: absolute;
   width: 250px;
@@ -1522,13 +1522,13 @@ ul.barmenu {
   z-index: 101;
   border-radius: 5px;
 }
-/* line 1424, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1425, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul {
   display: block;
   margin: 0;
   padding: 0;
 }
-/* line 1428, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1429, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li {
   margin: 0px;
   display: block;
@@ -1540,24 +1540,24 @@ ul.barmenu {
   border: 1px solid #888888;
   border-bottom: 1px solid #555555;
 }
-/* line 1437, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1438, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:hover {
   background-color: #6c6c6c;
   background-color: #5c5c5c;
   -webkit-background-clip: padding-box;
 }
-/* line 1445, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1446, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 1449, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1450, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom: 1px;
 }
-/* line 1454, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1455, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li span, #barmenu ul li a {
   display: table-cell;
   height: 50px;
@@ -1566,7 +1566,7 @@ ul.barmenu {
   color: white;
 }
 
-/* line 1464, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1465, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker {
   position: absolute;
   width: 250px;
@@ -1576,13 +1576,13 @@ ul.barmenu {
   border: 2px solid #dddddd;
   border-radius: 5px;
 }
-/* line 1472, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1473, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul {
   display: block;
   margin: 0;
   padding: 0;
 }
-/* line 1476, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1477, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li {
   margin: 0px;
   display: block;
@@ -1591,28 +1591,28 @@ ul.barmenu {
   margin-bottom: 1px;
   cursor: pointer;
 }
-/* line 1483, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1484, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:hover {
   background-color: rgba(240, 240, 240, 0.7);
 }
-/* line 1484, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1485, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 1488, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1489, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 1492, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1493, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li span {
   display: table-cell;
   height: 50px;
   vertical-align: middle;
 }
 
-/* line 1503, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1504, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new, .menu_item_red, .menu_item_blue, .menu_item_green, .menu_item_orange, .menu_item_black, .menu_item_gray, .menu_item_back {
   cursor: pointer;
   width: 80px;
@@ -1629,101 +1629,101 @@ ul.barmenu {
   color: #777;
   text-decoration: none;
 }
-/* line 1518, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1519, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new:hover, .menu_item_red:hover, .menu_item_blue:hover, .menu_item_green:hover, .menu_item_orange:hover, .menu_item_black:hover, .menu_item_gray:hover, .menu_item_back:hover {
   color: #555;
 }
 
-/* line 1526, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1527, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new {
   background-image: url("menu_button_new.png");
 }
-/* line 1528, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1529, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new:hover {
   background-image: url("menu_button_new_hover.png");
 }
 
-/* line 1533, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1534, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_red {
   background-image: url("menu_button_red.png");
 }
-/* line 1535, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1536, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_red:hover {
   background-image: url("menu_button_red_hover.png");
 }
 
-/* line 1539, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1540, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_blue {
   background-image: url("menu_button_lightblue.png");
 }
-/* line 1541, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1542, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_blue:hover {
   background-image: url("menu_button_lightblue_hover.png");
 }
 
-/* line 1546, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1547, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_green {
   background-image: url("menu_button_lightgreen.png");
 }
-/* line 1548, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1549, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_green:hover {
   background-image: url("menu_button_lightgreen_hover.png");
 }
 
-/* line 1553, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1554, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_orange {
   background-image: url("menu_button_orange.png");
 }
-/* line 1555, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1556, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_orange:hover {
   background-image: url("menu_button_orange_hover.png");
 }
 
-/* line 1559, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1560, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_black {
   background-image: url("menu_button_black.png");
 }
-/* line 1561, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1562, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_black:hover {
   background-image: url("menu_button_black_hover.png");
 }
 
-/* line 1565, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1566, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_gray {
   background-image: url("menu_button_gray.png");
 }
-/* line 1567, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1568, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_gray:hover {
   background-image: url("menu_button_gray_hover.png");
 }
 
-/* line 1571, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1572, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_back {
   background-image: url("menu_button_back.png");
 }
-/* line 1573, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1574, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_back:hover {
   background-image: url("menu_button_back_hover.png");
 }
 
-/* line 1579, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1580, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .hidden {
   display: none;
 }
 
-/* line 1583, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1584, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .spacer {
   clear: left;
   height: 18px;
 }
 
-/* line 1588, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1589, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .hidden_part {
   display: none;
   min-height: 600px;
 }
 
-/* line 1594, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1595, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -1736,32 +1736,32 @@ ul.barmenu {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1605, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1606, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs .container {
   padding: 20px;
 }
-/* line 1608, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1609, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs table {
   border-collapse: collapse;
 }
-/* line 1610, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1611, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs table td {
   border: 0;
 }
 
-/* line 1616, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1617, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-bar {
   height: 10px;
 }
 
-/* line 1619, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1620, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-spacer {
   float: left;
   width: 345px;
   height: 10px;
 }
 
-/* line 1624, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1625, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-up {
   float: left;
   width: 0;
@@ -1771,7 +1771,7 @@ ul.barmenu {
   border-bottom: 10px solid #eeeeee;
 }
 
-/* line 1632, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1633, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #blurr {
   display: none;
   z-index: 10;
@@ -1783,20 +1783,20 @@ ul.barmenu {
   left: 0;
 }
 
-/* line 1643, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1644, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #ajax_box {
   z-index: 20;
   position: absolute;
   display: none;
 }
-/* line 1647, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1648, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #ajax_box #ajax_frame {
   background-color: white;
   border-radius: 3px;
   padding-bottom: 6px;
 }
 
-/* line 1654, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1655, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar {
   display: none;
   width: 2px;
@@ -1808,19 +1808,19 @@ ul.barmenu {
   left: 0px;
   border-radius: 0 1px 1px 0;
 }
-/* line 1664, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1665, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar span {
   color: #888;
   margin: 5px;
   font-size: 13px;
   cursor: pointer;
 }
-/* line 1669, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1670, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar span:hover {
   color: #aaa;
 }
 
-/* line 1676, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1677, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #spinner {
   z-index: 99;
   position: fixed;
@@ -1831,7 +1831,7 @@ ul.barmenu {
   overflow: none;
 }
 
-/* line 1686, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1687, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .sort_handle {
   float: left;
   width: 40px;
@@ -1840,7 +1840,7 @@ ul.barmenu {
   background-size: 400px 60px;
 }
 
-/* line 1694, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1695, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input {
   display: none;
   z-index: 99;
@@ -1852,7 +1852,7 @@ ul.barmenu {
   border: 2px solid gray;
   border-radius: 3px;
 }
-/* line 1704, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1705, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form {
   display: block;
   float: left;
@@ -1862,7 +1862,7 @@ ul.barmenu {
   overflow: none;
   width: 250px;
 }
-/* line 1712, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1713, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form input#search_input_string {
   display: block;
   float: left;
@@ -1874,12 +1874,12 @@ ul.barmenu {
   background: url(search.jpg) no-repeat right white;
   background-size: 20px 15px;
 }
-/* line 1722, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1723, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form input#search_input_string:focus {
   outline-color: transparent;
   outline-style: none;
 }
-/* line 1728, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1729, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list {
   display: block;
   clear: left;
@@ -1887,7 +1887,7 @@ ul.barmenu {
   padding: 0;
   min-height: 100px;
 }
-/* line 1734, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1735, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li {
   display: block;
   color: #555;
@@ -1897,16 +1897,16 @@ ul.barmenu {
   cursor: pointer;
   font-size: 14pt;
 }
-/* line 1742, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1743, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li.selected {
   background-color: #ddd;
 }
-/* line 1745, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1746, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li:hover {
   color: black;
 }
 
-/* line 1752, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1753, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .search_input_button {
   height: 29px;
   width: 20px;
@@ -1916,7 +1916,7 @@ ul.barmenu {
   cursor: pointer;
 }
 
-/* line 1760, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1761, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .search_input_show {
   display: block;
   float: left;
@@ -1926,7 +1926,7 @@ ul.barmenu {
   height: 25px;
 }
 
-/* line 1769, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1770, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #msg {
   z-index: 100;
   display: none;
@@ -1942,7 +1942,7 @@ ul.barmenu {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 1784, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1785, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #sys_error {
   z-index: 100;
   display: none;
@@ -1954,7 +1954,7 @@ ul.barmenu {
   border-color: gray;
   border-style: solid;
 }
-/* line 1794, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1795, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #sys_error .sys_error_text {
   font-size: 8pt;
   padding: 5px 20px;
@@ -1962,11 +1962,11 @@ ul.barmenu {
   overflow: scroll;
 }
 
-/* line 1803, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1804, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li {
   height: 60px;
 }
-/* line 1805, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1806, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li .li_spinner {
   margin-top: 40px;
   width: 0;
@@ -1974,25 +1974,25 @@ ul.barmenu {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1812, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1813, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li a {
   display: none;
 }
 
-/* line 1818, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1819, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu:hover {
   cursor: pointer;
 }
-/* line 1821, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1822, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_email {
   font-size: 10pt;
   color: #ccc;
 }
-/* line 1824, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1825, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_email:hover {
   color: white;
 }
-/* line 1828, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1829, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_arrow_down {
   display: block;
   margin-top: 8px;
@@ -2006,17 +2006,17 @@ ul.barmenu {
   border-right: 3px solid transparent;
   border-bottom: 0;
 }
-/* line 1840, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1841, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_arrow_down:hover {
   border-top: 7px solid white;
 }
 
-/* line 1846, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1847, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .design {
   display: none;
 }
 
-/* line 1850, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1851, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .itemplate-input {
   width: 100%;
   height: 300px;
@@ -2026,7 +2026,7 @@ ul.barmenu {
   padding-left: 10px;
 }
 
-/* line 1859, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1860, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .auto_expand, .report_expand {
   clear: left;
   text-align: center;
@@ -2038,70 +2038,70 @@ ul.barmenu {
   color: #ddd;
   cursor: pointer;
 }
-/* line 1869, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1870, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .auto_expand:hover, .report_expand:hover {
   border-color: #bbb;
   color: #bbb;
 }
 
-/* line 1875, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1876, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .manual_expand {
   cursor: pointer;
   color: #ddd;
   text-align: center;
   list-style-type: none;
 }
-/* line 1880, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1881, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .manual_expand:hover {
   color: gray;
 }
 
-/* line 1885, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1886, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_expand {
   display: none;
 }
 
-/* line 1889, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1890, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #please_refresh_me {
   text-align: center;
   padding-top: 100px;
 }
 
-/* line 1894, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1895, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 textarea:focus {
   outline-style: none;
 }
 
-/* line 1898, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1899, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 textarea.itemplate-input {
   font-size: 10pt;
   font-family: courier;
 }
 
-/* line 1903, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1904, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output {
   font-size: 11pt;
 }
-/* line 1905, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1906, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container {
   overflow-x: scroll;
 }
-/* line 1907, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1908, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist {
   width: 100%;
   border-collapse: collapse;
 }
-/* line 1910, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1911, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist tr {
   border-bottom: 1px solid #dddddd;
 }
-/* line 1912, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1913, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist tr td {
   background-color: none;
   padding: 2px 5px;
   text-align: right;
 }
-/* line 1918, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1919, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-heading {
   background-color: white;
   color: gray;
@@ -2109,21 +2109,21 @@ textarea.itemplate-input {
   -webkit-background-clip: padding-box;
   height: 32px;
 }
-/* line 1925, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1926, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-heading th {
   padding: 0 5px;
   line-height: 32px;
   height: 32px;
   text-align: right;
 }
-/* line 1932, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1933, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-totals {
   height: 24px;
   line-height: 24px;
   font-weight: bold;
 }
 
-/* line 1943, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1944, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker {
   background-color: white;
   border: 2px solid #cccccc;
@@ -2132,11 +2132,11 @@ textarea.itemplate-input {
   padding-bottom: 14px;
   width: 246px;
 }
-/* line 1951, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1952, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header {
   padding: 0 22px;
 }
-/* line 1953, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1954, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev, .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
   display: block;
   cursor: pointer;
@@ -2147,25 +2147,25 @@ textarea.itemplate-input {
   border-top: 5px solid white;
   border-bottom: 5px solid white;
 }
-/* line 1963, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1964, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev {
   float: left;
   border-right: 10px solid #cccccc;
 }
-/* line 1966, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1967, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev:hover {
   border-right-color: gray;
 }
-/* line 1970, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1971, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
   float: right;
   border-left: 10px solid #cccccc;
 }
-/* line 1973, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1974, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next:hover {
   border-left-color: gray;
 }
-/* line 1977, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1978, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header div.ui-datepicker-title {
   text-align: center;
   width: 166px;
@@ -2175,31 +2175,31 @@ textarea.itemplate-input {
   line-height: 30px;
   overflow: hidden;
 }
-/* line 1988, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1989, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar {
   border-collapse: collapse;
 }
-/* line 1990, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1991, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 1994, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1995, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead tr th {
   text-align: center;
   color: gray;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 2000, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2001, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead tr th.ui-datepicker-week-end {
   color: #cccccc;
 }
-/* line 2005, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2006, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr:first-child td {
   padding-top: 6px;
 }
-/* line 2008, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2009, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td a {
   font-size: 18px;
   text-align: center;
@@ -2210,31 +2210,31 @@ textarea.itemplate-input {
   color: gray;
   margin: 2px 0;
 }
-/* line 2018, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2019, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a {
   color: #ccc;
 }
-/* line 2020, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2021, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a:hover {
   color: gray;
 }
-/* line 2022, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2023, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr a.ui-state-active {
   background-color: #eeeeee;
 }
-/* line 2023, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2024, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-today a {
   text-decoration: underline;
 }
-/* line 2024, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2025, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr a:hover {
   color: black;
 }
-/* line 2027, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2028, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar td:first-child, .ui-datepicker table.ui-datepicker-calendar th:first-child {
   padding-left: 12px;
 }
-/* line 2030, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2031, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar td:last-child, .ui-datepicker table.ui-datepicker-calendar th:last-child {
   padding-right: 12px;
 }

@@ -1467,27 +1467,28 @@ ul.barmenu {
   border: 2px solid white;
   opacity: 0.8;
   text-align: center;
+  -webkit-background-clip: padding-box;
 }
-/* line 1349, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1350, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:hover {
   opacity: 1;
 }
-/* line 1352, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1353, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon:active {
   border-color: red;
 }
-/* line 1355, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1356, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img {
   position: relative;
   width: 74px;
   height: 74px;
 }
-/* line 1359, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1360, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_item_icon .img img {
   margin: 2px;
   position: absolute;
 }
-/* line 1365, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1366, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_title {
   padding-top: 2px;
   width: 76px;
@@ -1501,42 +1502,42 @@ ul.barmenu {
   color: #777;
   text-decoration: none;
 }
-/* line 1377, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1378, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_outer .menu_title:hover {
   color: #555;
 }
 
-/* line 1386, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1387, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_red {
   background-color: #e88;
 }
 
-/* line 1389, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1390, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_blue {
   background-color: #cce;
 }
 
-/* line 1392, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1393, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_green {
   background-color: #03eba6;
 }
 
-/* line 1395, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1396, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_orange {
   background-color: #ffc367;
 }
 
-/* line 1398, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1399, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_black {
   background-color: #666;
 }
 
-/* line 1401, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1402, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .mnu_gray {
   background-color: #ccc;
 }
 
-/* line 1406, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1407, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu {
   position: absolute;
   width: 250px;
@@ -1545,13 +1546,13 @@ ul.barmenu {
   z-index: 101;
   border-radius: 5px;
 }
-/* line 1413, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1414, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul {
   display: block;
   margin: 0;
   padding: 0;
 }
-/* line 1417, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1418, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li {
   margin: 0px;
   display: block;
@@ -1566,7 +1567,7 @@ ul.barmenu {
   border: 1px solid #888888;
   border-bottom: 1px solid #555555;
 }
-/* line 1426, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1427, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:hover {
   background-color: #6c6c6c;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #5c5c5c));
@@ -1575,18 +1576,18 @@ ul.barmenu {
   background-color: #666666;
   -webkit-background-clip: padding-box;
 }
-/* line 1434, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1435, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 1438, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1439, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom: 1px;
 }
-/* line 1443, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1444, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #barmenu ul li span, #barmenu ul li a {
   display: table-cell;
   height: 50px;
@@ -1595,7 +1596,7 @@ ul.barmenu {
   color: white;
 }
 
-/* line 1453, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1454, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker {
   position: absolute;
   width: 250px;
@@ -1605,13 +1606,13 @@ ul.barmenu {
   border: 2px solid #dddddd;
   border-radius: 5px;
 }
-/* line 1461, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1462, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul {
   display: block;
   margin: 0;
   padding: 0;
 }
-/* line 1465, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1466, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li {
   margin: 0px;
   display: block;
@@ -1620,28 +1621,28 @@ ul.barmenu {
   margin-bottom: 1px;
   cursor: pointer;
 }
-/* line 1472, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1473, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:hover {
   background-color: rgba(240, 240, 240, 0.7);
 }
-/* line 1473, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1474, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:first-child {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 1477, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1478, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 1481, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1482, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #item_picker ul li span {
   display: table-cell;
   height: 50px;
   vertical-align: middle;
 }
 
-/* line 1492, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1493, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new, .menu_item_red, .menu_item_blue, .menu_item_green, .menu_item_orange, .menu_item_black, .menu_item_gray, .menu_item_back {
   cursor: pointer;
   width: 80px;
@@ -1658,101 +1659,101 @@ ul.barmenu {
   color: #777;
   text-decoration: none;
 }
-/* line 1507, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1508, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new:hover, .menu_item_red:hover, .menu_item_blue:hover, .menu_item_green:hover, .menu_item_orange:hover, .menu_item_black:hover, .menu_item_gray:hover, .menu_item_back:hover {
   color: #555;
 }
 
-/* line 1515, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1516, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new {
   background-image: url("menu_button_new.png");
 }
-/* line 1517, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1518, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_new:hover {
   background-image: url("menu_button_new_hover.png");
 }
 
-/* line 1522, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1523, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_red {
   background-image: url("menu_button_red.png");
 }
-/* line 1524, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1525, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_red:hover {
   background-image: url("menu_button_red_hover.png");
 }
 
-/* line 1528, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1529, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_blue {
   background-image: url("menu_button_lightblue.png");
 }
-/* line 1530, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1531, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_blue:hover {
   background-image: url("menu_button_lightblue_hover.png");
 }
 
-/* line 1535, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1536, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_green {
   background-image: url("menu_button_lightgreen.png");
 }
-/* line 1537, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1538, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_green:hover {
   background-image: url("menu_button_lightgreen_hover.png");
 }
 
-/* line 1542, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1543, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_orange {
   background-image: url("menu_button_orange.png");
 }
-/* line 1544, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1545, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_orange:hover {
   background-image: url("menu_button_orange_hover.png");
 }
 
-/* line 1548, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1549, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_black {
   background-image: url("menu_button_black.png");
 }
-/* line 1550, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1551, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_black:hover {
   background-image: url("menu_button_black_hover.png");
 }
 
-/* line 1554, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1555, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_gray {
   background-image: url("menu_button_gray.png");
 }
-/* line 1556, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1557, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_gray:hover {
   background-image: url("menu_button_gray_hover.png");
 }
 
-/* line 1560, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1561, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_back {
   background-image: url("menu_button_back.png");
 }
-/* line 1562, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1563, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .menu_item_back:hover {
   background-image: url("menu_button_back_hover.png");
 }
 
-/* line 1568, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1569, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .hidden {
   display: none;
 }
 
-/* line 1572, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1573, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .spacer {
   clear: left;
   height: 18px;
 }
 
-/* line 1577, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1578, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .hidden_part {
   display: none;
   min-height: 600px;
 }
 
-/* line 1583, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1584, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -1765,32 +1766,32 @@ ul.barmenu {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1594, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1595, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs .container {
   padding: 20px;
 }
-/* line 1597, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1598, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs table {
   border-collapse: collapse;
 }
-/* line 1599, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1600, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .crumblogs table td {
   border: 0;
 }
 
-/* line 1605, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1606, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-bar {
   height: 10px;
 }
 
-/* line 1608, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1609, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-spacer {
   float: left;
   width: 345px;
   height: 10px;
 }
 
-/* line 1613, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1614, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .arrow-up {
   float: left;
   width: 0;
@@ -1800,7 +1801,7 @@ ul.barmenu {
   border-bottom: 10px solid #eeeeee;
 }
 
-/* line 1621, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1622, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #blurr {
   display: none;
   z-index: 10;
@@ -1812,20 +1813,20 @@ ul.barmenu {
   left: 0;
 }
 
-/* line 1632, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1633, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #ajax_box {
   z-index: 20;
   position: absolute;
   display: none;
 }
-/* line 1636, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1637, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #ajax_box #ajax_frame {
   background-color: white;
   border-radius: 3px;
   padding-bottom: 6px;
 }
 
-/* line 1643, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1644, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar {
   display: none;
   width: 2px;
@@ -1837,19 +1838,19 @@ ul.barmenu {
   left: 0px;
   border-radius: 0 1px 1px 0;
 }
-/* line 1653, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1654, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar span {
   color: #888;
   margin: 5px;
   font-size: 13px;
   cursor: pointer;
 }
-/* line 1658, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1659, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .developer_toolbar span:hover {
   color: #aaa;
 }
 
-/* line 1665, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1666, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #spinner {
   z-index: 99;
   position: fixed;
@@ -1860,7 +1861,7 @@ ul.barmenu {
   overflow: none;
 }
 
-/* line 1675, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1676, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .sort_handle {
   float: left;
   width: 40px;
@@ -1869,7 +1870,7 @@ ul.barmenu {
   background-size: 400px 60px;
 }
 
-/* line 1683, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1684, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input {
   display: none;
   z-index: 99;
@@ -1881,7 +1882,7 @@ ul.barmenu {
   border: 2px solid gray;
   border-radius: 3px;
 }
-/* line 1693, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1694, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form {
   display: block;
   float: left;
@@ -1891,7 +1892,7 @@ ul.barmenu {
   overflow: none;
   width: 250px;
 }
-/* line 1701, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1702, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form input#search_input_string {
   display: block;
   float: left;
@@ -1903,12 +1904,12 @@ ul.barmenu {
   background: url(search.jpg) no-repeat right white;
   background-size: 20px 15px;
 }
-/* line 1711, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1712, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input #search_input_form input#search_input_string:focus {
   outline-color: transparent;
   outline-style: none;
 }
-/* line 1717, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1718, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list {
   display: block;
   clear: left;
@@ -1916,7 +1917,7 @@ ul.barmenu {
   padding: 0;
   min-height: 100px;
 }
-/* line 1723, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1724, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li {
   display: block;
   color: #555;
@@ -1926,16 +1927,16 @@ ul.barmenu {
   cursor: pointer;
   font-size: 14pt;
 }
-/* line 1731, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1732, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li.selected {
   background-color: #ddd;
 }
-/* line 1734, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1735, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #search_input ul#search_input_list li:hover {
   color: black;
 }
 
-/* line 1741, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1742, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .search_input_button {
   height: 29px;
   width: 20px;
@@ -1945,7 +1946,7 @@ ul.barmenu {
   cursor: pointer;
 }
 
-/* line 1749, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1750, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .search_input_show {
   display: block;
   float: left;
@@ -1955,7 +1956,7 @@ ul.barmenu {
   height: 25px;
 }
 
-/* line 1758, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1759, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #msg {
   z-index: 100;
   display: none;
@@ -1971,7 +1972,7 @@ ul.barmenu {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 1773, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1774, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #sys_error {
   z-index: 100;
   display: none;
@@ -1983,7 +1984,7 @@ ul.barmenu {
   border-color: gray;
   border-style: solid;
 }
-/* line 1783, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1784, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #sys_error .sys_error_text {
   font-size: 8pt;
   padding: 5px 20px;
@@ -1991,11 +1992,11 @@ ul.barmenu {
   overflow: scroll;
 }
 
-/* line 1792, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1793, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li {
   height: 60px;
 }
-/* line 1794, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1795, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li .li_spinner {
   margin-top: 40px;
   width: 0;
@@ -2003,25 +2004,25 @@ ul.barmenu {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1801, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1802, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .more_li a {
   display: none;
 }
 
-/* line 1807, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1808, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu:hover {
   cursor: pointer;
 }
-/* line 1810, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1811, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_email {
   font-size: 10pt;
   color: #ccc;
 }
-/* line 1813, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1814, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_email:hover {
   color: white;
 }
-/* line 1817, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1818, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_arrow_down {
   display: block;
   margin-top: 8px;
@@ -2035,17 +2036,17 @@ ul.barmenu {
   border-right: 3px solid transparent;
   border-bottom: 0;
 }
-/* line 1829, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1830, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .session_menu .session_arrow_down:hover {
   border-top: 7px solid white;
 }
 
-/* line 1835, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1836, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .design {
   display: none;
 }
 
-/* line 1839, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1840, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .itemplate-input {
   width: 100%;
   height: 300px;
@@ -2055,7 +2056,7 @@ ul.barmenu {
   padding-left: 10px;
 }
 
-/* line 1848, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1849, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .auto_expand, .report_expand {
   clear: left;
   text-align: center;
@@ -2067,70 +2068,70 @@ ul.barmenu {
   color: #ddd;
   cursor: pointer;
 }
-/* line 1858, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1859, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .auto_expand:hover, .report_expand:hover {
   border-color: #bbb;
   color: #bbb;
 }
 
-/* line 1864, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1865, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .manual_expand {
   cursor: pointer;
   color: #ddd;
   text-align: center;
   list-style-type: none;
 }
-/* line 1869, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1870, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .manual_expand:hover {
   color: gray;
 }
 
-/* line 1874, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1875, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_expand {
   display: none;
 }
 
-/* line 1878, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1879, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 #please_refresh_me {
   text-align: center;
   padding-top: 100px;
 }
 
-/* line 1883, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1884, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 textarea:focus {
   outline-style: none;
 }
 
-/* line 1887, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1888, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 textarea.itemplate-input {
   font-size: 10pt;
   font-family: courier;
 }
 
-/* line 1892, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1893, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output {
   font-size: 11pt;
 }
-/* line 1894, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1895, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container {
   overflow-x: scroll;
 }
-/* line 1896, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1897, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist {
   width: 100%;
   border-collapse: collapse;
 }
-/* line 1899, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1900, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist tr {
   border-bottom: 1px solid #dddddd;
 }
-/* line 1901, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1902, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist tr td {
   background-color: none;
   padding: 2px 5px;
   text-align: right;
 }
-/* line 1907, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1908, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-heading {
   background-color: white;
   color: gray;
@@ -2141,21 +2142,21 @@ textarea.itemplate-input {
   -webkit-background-clip: padding-box;
   height: 32px;
 }
-/* line 1914, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1915, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-heading th {
   padding: 0 5px;
   line-height: 32px;
   height: 32px;
   text-align: right;
 }
-/* line 1921, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1922, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .report_output .report_container table.reportlist .reportlist-totals {
   height: 24px;
   line-height: 24px;
   font-weight: bold;
 }
 
-/* line 1932, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1933, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker {
   background-color: white;
   border: 2px solid #cccccc;
@@ -2164,11 +2165,11 @@ textarea.itemplate-input {
   padding-bottom: 14px;
   width: 246px;
 }
-/* line 1940, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1941, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header {
   padding: 0 22px;
 }
-/* line 1942, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1943, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev, .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
   display: block;
   cursor: pointer;
@@ -2179,25 +2180,25 @@ textarea.itemplate-input {
   border-top: 5px solid white;
   border-bottom: 5px solid white;
 }
-/* line 1952, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1953, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev {
   float: left;
   border-right: 10px solid #cccccc;
 }
-/* line 1955, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1956, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-prev:hover {
   border-right-color: gray;
 }
-/* line 1959, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1960, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next {
   float: right;
   border-left: 10px solid #cccccc;
 }
-/* line 1962, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1963, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header a.ui-datepicker-next:hover {
   border-left-color: gray;
 }
-/* line 1966, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1967, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker div.ui-datepicker-header div.ui-datepicker-title {
   text-align: center;
   width: 166px;
@@ -2207,31 +2208,31 @@ textarea.itemplate-input {
   line-height: 30px;
   overflow: hidden;
 }
-/* line 1977, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1978, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar {
   border-collapse: collapse;
 }
-/* line 1979, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1980, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 1983, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1984, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead tr th {
   text-align: center;
   color: gray;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 1989, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1990, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar thead tr th.ui-datepicker-week-end {
   color: #cccccc;
 }
-/* line 1994, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1995, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr:first-child td {
   padding-top: 6px;
 }
-/* line 1997, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 1998, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td a {
   font-size: 18px;
   text-align: center;
@@ -2242,31 +2243,31 @@ textarea.itemplate-input {
   color: gray;
   margin: 2px 0;
 }
-/* line 2007, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2008, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a {
   color: #ccc;
 }
-/* line 2009, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2010, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-week-end a:hover {
   color: gray;
 }
-/* line 2011, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2012, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr a.ui-state-active {
   background-color: #eeeeee;
 }
-/* line 2012, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2013, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr td.ui-datepicker-today a {
   text-decoration: underline;
 }
-/* line 2013, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2014, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar tbody tr a:hover {
   color: black;
 }
-/* line 2016, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2017, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar td:first-child, .ui-datepicker table.ui-datepicker-calendar th:first-child {
   padding-left: 12px;
 }
-/* line 2019, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
+/* line 2020, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .ui-datepicker table.ui-datepicker-calendar td:last-child, .ui-datepicker table.ui-datepicker-calendar th:last-child {
   padding-right: 12px;
 }

@@ -32080,7 +32080,6 @@ function system_romeo(){
     pos.top = link_pos.top + bm_link.outerHeight() + 5;
 
     barmenu.html(bm_list).css(pos).fadeIn();
-    that.ajaxEnd();
 
   //if menu goes over the right border, move it left
     var link_right = pos.left + barmenu.outerWidth();
@@ -32119,7 +32118,7 @@ function system_romeo(){
   }
 
   that.click_app = function(menu_link){
-    that.ajaxBegin();
+    that.ajaxEnd();
     that.popupsClose();
     $ul = $(menu_link).find("ul.barmenu:first");
     var menu_tenant_id = $ul.data("tenant_id");
@@ -32132,7 +32131,7 @@ function system_romeo(){
   }
 
   that.click_folder = function(menu_link){
-    that.ajaxBegin();
+    that.ajaxEnd();
     that.popupsClose();
     $ul = $(menu_link).find('ul:first');
     var folder_tenant_id = $ul.data("tenant_id");

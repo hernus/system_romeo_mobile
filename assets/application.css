@@ -816,6 +816,7 @@ ul.barmenu {
   height: 20px;
   text-align: center;
   cursor: default;
+  -webkit-background-clip:padding-box;             
 }
 /* line 763, ../../vendor/engines/fj/app/assets/stylesheets/fj.css.scss */
 .simpleform .visible_input_elements .field .labelleft, .simpleform .visible_input_elements .field-hl .labelleft, .simpleform .visible_input_elements .field-vl .labelleft {

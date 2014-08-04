@@ -32401,7 +32401,7 @@ function system_romeo(){
     $("#blurr").show();
     search_div.css({top:topc,left:leftc}).show();
     var input = search_div.find("input#search_input_string");
-    input.focus();
+    input.blur();
     input.val("");
     that.search_item_picked = false;  
     that.ajaxBegin();
